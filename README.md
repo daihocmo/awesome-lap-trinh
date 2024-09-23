@@ -10,11 +10,11 @@ Tất nhiên, Tiếng Anh vẫn sẽ luôn luôn nhiều hơn và rất gợi ý
 ## Mục lục
 - [Thuật toán](#thuật-toán)
 - [Trí tuệ nhân tạo](#trí-tuệ-nhân-tạo)
-- [Đồ họa máy tính](#đồ-họa-máy-tính)
 - [Khoa học máy tính](#khoa-học-máy-tính)
 - [Ngôn ngữ lập trình](#ngôn-ngữ-lập-trình)
 - [Bảo mật](#bảo-mật)
 - [Hệ thống](#hệ-thống)
+- [Học ở bậc đại học](#học-ở-bậc-đại-học)
 - [Những thứ linh tinh khác](#những-thứ-linh-tinh-khác)
 
 ## Thuật toán
@@ -25,24 +25,40 @@ Tất nhiên, Tiếng Anh vẫn sẽ luôn luôn nhiều hơn và rất gợi ý
 - [ml-yearning-vi](https://github.com/mlbvn/ml-yearning-vi) -  Một cuốn sách tập trung vào hướng dẫn cách cấu trúc các dự án Học Máy và phân tích cách làm cho các thuật toán Học Máy hoạt động. 
 - [handson-ml2-vn](https://github.com/mlbvn/handson-ml2-vn) -  Jupyter Notebook cung cấp các kiến thức cơ bản về Học Máy và Học Sâu bằng Python với Scikit-Learn, Keras, và TensorFlow 2. 
 
-## Đồ họa máy tính
-- []()
-
 ## Khoa học máy tính
 - [TeachYourselfCS-vi](https://github.com/htdat/TeachYourselfCS-vi) - Bản dịch tiếng Việt của https://teachyourselfcs.com (Bản dịch thôi chứ các tài liệu học vẫn là Tiếng Anh)
+- [Kì Học Bị Thiếu Của Giáo Trình Khoa Học Máy Tính](https://missing-semester-vn.github.io/)
+- [CS50 Vietsub](https://www.youtube.com/playlist?list=PLJ3cEjfn1AKRdtE2KNLCw0sgBfdmAeulI) - Bản Vietsub cho khoá CS50 của Loan Hà.
 
 
 ## Ngôn ngữ lập trình
+
+### HTML/CSS/JS 
+- [HTML & CSS F8 - Youtube](https://www.youtube.com/playlist?list=PL_-VfJajZj0U9nEXa4qyfB4U5ZIYCMPlz)
+- [JS F8 - Youtube](https://www.youtube.com/playlist?list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5) - [Một khóa JS nâng cao khác cũng của F8](https://www.youtube.com/playlist?list=PL_-VfJajZj0U1MSx1IMu13oLJq2nM97ac)
+- [ReactJS 2022](https://www.youtube.com/playlist?list=PL_-VfJajZj0UXjlKfBwFX73usByw3Ph9Q)
+- [NodeJS & ExpressJS](https://www.youtube.com/playlist?list=PL_-VfJajZj0VatBpaXkEHK_UPHL7dW6I3)
 
 ### Rust
 - [Rust Tiếng Việt](https://rust-tieng-viet.github.io/)
 - [Rust By Example Tiếng Việt](https://rustvn.ezidev.tech/)
 
+### C++
+- [Lập trình C++ từ cơ bản đến nâng cao](https://www.youtube.com/playlist?list=PL_-VfJajZj0Uo72G_6tSY4NRLpmffeXSA)
+
 ## Bảo mật
 - [opsec-guide](https://github.com/ndbiaw/opsec-guide) -  Hướng dẫn thực hành căn bản về bảo mật thông tin cá nhân/danh tính trên không gian mạng, chống lại việc dò tìm thông tin. 
 
 ## Hệ thống
-- []()
+- [git-github-for-sysadmin](https://github.com/hocchudong/git-github-for-sysadmin) -  Hướng dẫn sử dụng git, github 
+- [Windows Terminal và WSL](https://www.youtube.com/playlist?list=PL_-VfJajZj0XGfh528VqhlgXUfzw1Y0N7)
+
+## Học ở bậc đại học
+- [Kho tài liệu học tập UIT](http://svuit.org/mmtt/)
+- [Tài liệu HUST](https://tailieuhust.com/) - Tài liệu ở HUST.
+
 
 ## Những thứ linh tinh khác
 - [awesome-UIT-projects](https://github.com/SVUIT/awesome-UIT-projects) -  Nơi tổng hợp các project liên quan đến các môn học hoặc các công cụ dành cho sinh viên UIT. 
+- [trhgquan/crypto](https://github.com/trhgquan/crypto) -  Cài đặt thuật & tóm tắt lí thuyết Mã hóa mật mã - fit@hcmus 
+- [Session, cookie, CORS, JWT, SSO](https://www.youtube.com/playlist?list=PL_-VfJajZj0VaEt6Q1Z_CSg_Ci9aP9oQ1)

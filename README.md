@@ -8,6 +8,7 @@ Một danh sách những gì liên quan đến lập trình và việc học l�
 Tất nhiên, Tiếng Anh vẫn sẽ luôn luôn nhiều hơn và rất gợi ý nếu bạn có thể đọc được Tiếng Anh. Nhưng nếu bạn chưa đọc được Tiếng Anh đủ tốt để hiểu thì có thể cân nhắc sử dụng bất kì tài nguyên nào ở dưới đây. 
 
 ## Mục lục
+- [Tiếng Anh chuyên ngành](#tiếng-anh-chuyên-ngành)
 - [Thuật toán](#thuật-toán)
 - [Trí tuệ nhân tạo](#trí-tuệ-nhân-tạo)
 - [Khoa học máy tính](#khoa-học-máy-tính)
@@ -16,6 +17,10 @@ Tất nhiên, Tiếng Anh vẫn sẽ luôn luôn nhiều hơn và rất gợi ý
 - [Hệ thống](#hệ-thống)
 - [Học ở bậc đại học](#học-ở-bậc-đại-học)
 - [Những thứ linh tinh khác](#những-thứ-linh-tinh-khác)
+
+## Tiếng Anh chuyên ngành
+- [Tự học Tiếng Anh Chuyên Ngành](https://daihocmo.github.io/tieng-anh-chuyen-nganh/)
+- [Tiếng Anh chuyên ngành Công nghệ thông tin - Bộ thẻ Anki](https://ankivn.com/bo-the/ngoai-ngu/tieng-anh/tieng-anh-chuyen-nganh-cong-nghe-thong-tin/)
 
 ## Thuật toán
 - [Giải thuật và Lập trình – Lê Minh Hoàng](https://archive.org/details/giai-thuat-va-lap-trinh-le-minh-hoang)

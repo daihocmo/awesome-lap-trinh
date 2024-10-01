@@ -58,19 +58,22 @@ Bạn sẽ cần học Tiếng Anh song song với chương trình này.
 Hầu hết các chương trình đại học cho ngành KHMT đều bắt đầu với phần “giới thiệu” về lập trình máy tính. Các khóa học tốt nhất cho chủ đề này không chỉ giúp cho người mới học, mà còn rất tốt chho những người đã bỏ lỡ các khái niệm và mô hình lập trình khi họ mới học viết mã.
 
 - [CS50 Vietsub](https://www.youtube.com/playlist?list=PLJ3cEjfn1AKRdtE2KNLCw0sgBfdmAeulI) - Bản Vietsub cho khoá CS50 của Loan Hà.
-- [SICP]() - Sách siêu cấp, đang dịch sang Tiếng Việt nên chưa có đâu.
+- [SICP](https://github.com/thu-vien-mo/sicp-vi) - Sách siêu cấp, đang dịch sang Tiếng Việt nên chưa có đâu.
 - [Programming Languages, Part A](https://www.coursera.org/learn/programming-languages)
 - [Programming Languages, Part B](https://www.coursera.org/learn/programming-languages-part-b)
 - [Programming Languages, Part C](https://www.coursera.org/learn/programming-languages-part-c)
 - [Software Architecture](https://www.coursera.org/learn/software-architecture) 
 
-## Cấu trúc máy tính
+## Kiến trúc máy tính
 Kiến trúc Máy tính — đôi khi được gọi là “hệ thống máy tính” hoặc “tổ chức của máy tính” — là một góc nhìn quan trọng đầu tiên về phần tính toán bên dưới bề mặt của phần mềm. Theo kinh nghiệm của chúng tôi, đó là lĩnh vực bị bỏ qua nhất trong các kỹ sư phần mềm tự học.
+
+- [IT006 - Kiến trúc máy tính](https://svuit.org/mmtt/docs/MonHocCoSoNganh/IT006.html)
 
 ## Thuật toán
 Chúng tôi đồng ý với sự đồng thuận chung trong nhiều thập kỷ rằng sự quen thuộc với các thuật toán và cấu trúc dữ liệu phổ biến là một trong những đặc điểm có nhiều ý nghĩa nhất của chương trình giáo dục khoa học máy tính. Đây cũng là một nơi tuyệt vời để đào tạo khả năng giải quyết vấn đề chung của một người, khả năng này sẽ mang lại hiệu quả trong mọi lĩnh vực nghiên cứu khác.
 
 - [Giải thuật và Lập trình – Lê Minh Hoàng](https://archive.org/details/giai-thuat-va-lap-trinh-le-minh-hoang)
+- [IT003 - Cấu trúc dữ liệu và giải thuật](https://svuit.org/mmtt/docs/MonHocCoSoNganh/IT003.html)
 
 ## Toán
 Theo một cách nào đó, khoa học máy tính là một nhánh của toán học ứng dụng đã phát triển quá nhanh. Mặc dù nhiều kỹ sư phần mềm cố gắng bỏ qua chủ đề này ở các mức độ khác nhau, chúng tôi khuyến khích bạn nắm bắt nó bằng cách nghiên cứu trực tiếp. Nếu học được thành công sẽ mang lại cho bạn một lợi thế cạnh tranh to lớn so với những người không học.
@@ -81,50 +84,57 @@ Nếu bác muốn học toàn bằng Tiếng Anh thì: [https://github.com/ossu/
 
 
 ## Hệ điều hành
+- [IT007 - Hệ điều hành - SVUIT](https://svuit.org/mmtt/docs/MonHocCoSoNganh/IT007.html)
+- [IT007.M14-Operating-Systems](https://github.com/PhamThe-KHDL/IT007.M14-Operating-Systems)
 
 ## Mạng máy tính 
 Thực tế hiện nay có rất nhiều kỹ thuật phần mềm nằm trên máy chủ web và máy khách, nên một trong những lĩnh vực có giá trị tức thì của khoa học máy tính là mạng máy tính. Các sinh viên tự học của chúng tôi, những người nghiên cứu mạng máy tính một cách có phương pháp thấy rằng cuối cùng họ cũng hiểu các thuật ngữ, khái niệm và giao thức mà họ đã nhìn thấy trong trong nhiều năm.
 
+- [IT005 - Nhập môn mạng máy tính](https://svuit.org/mmtt/docs/MonHocCoSoNganh/IT005.html)
+
 ## Cơ sở dữ liệu
 Tự học về hệ thống cơ sở dữ liệu sẽ mất nhiều công sức hơn so với hầu hết các chủ đề khác. Đây là một lĩnh vực nghiên cứu tương đối mới (tức là sau những năm 1970) với những giá trị thương mại lớn cho các ý tưởng tưởng được giữ lại sau các cánh cửa đóng kín. Ngoài ra, nhiều tác giả tiềm năng cho các giáo trình xuất sắc tiềm năng đã muốn tham gia hoặc thành lập các công ty hơn là viết sách.
 
+- [IT004 - Cơ sở dữ liệu](https://svuit.org/mmtt/docs/MonHocCoSoNganh/IT004.html)
+- [IT004.L19-Database](https://github.com/PhamThe-KHDL/IT004.L19-Database)
+
 ## Ngôn ngữ và trình biên dịch
 Hầu hết các lập trình viên học ngôn ngữ, trong khi hầu hết các nhà khoa học máy tính học về ngôn ngữ. Điều này mang lại cho nhà khoa học máy tính một lợi thế khác biệt so với lập trình viên, ngay cả trong lĩnh vực lập trình! Kiến thức của họ khái quát; họ có thể hiểu hoạt động của một ngôn ngữ mới sâu hơn và nhanh hơn so với những người chỉ đơn thuần học một ngôn ngữ cụ thể.
+
+Tài liệu bằng Tiếng Việt cho mảng này thì gần như không biết nên tìm ở đâu.
 
 ## Hệ thống phân tán
 Khi số lượng máy tính tăng lên, chúng cũng lan rộng. Trong khi các doanh nghiệp trước đây thường mua các máy tính càng ngày càng lớn hơn, thì giờ đây việc các ứng dụng thậm chí rất nhỏ chạy trên nhiều máy tính cũng rất phổ biến. Hệ thống phân tán là nghiên cứu về các đánh đổi khi sử dụng nó.
 
 
-## Các chủ đề khác
-
-### Trí tuệ nhân tạo
+## Trí tuệ nhân tạo
 - [d2l-vi](https://github.com/d2l-ai/d2l-vi) -  Một cuốn sách về Học Sâu đề cập đến nhiều framework phổ biến, được sử dụng trên 300 trường Đại học từ 55 đất nước bao gồm MIT, Stanford, Harvard, và Cambridge. 
 - [ml-yearning-vi](https://github.com/mlbvn/ml-yearning-vi) -  Một cuốn sách tập trung vào hướng dẫn cách cấu trúc các dự án Học Máy và phân tích cách làm cho các thuật toán Học Máy hoạt động. 
 - [handson-ml2-vn](https://github.com/mlbvn/handson-ml2-vn) -  Jupyter Notebook cung cấp các kiến thức cơ bản về Học Máy và Học Sâu bằng Python với Scikit-Learn, Keras, và TensorFlow 2. 
 
-### Ngôn ngữ lập trình
+## Ngôn ngữ lập trình
 
-#### HTML/CSS/JS 
+### HTML/CSS/JS 
 - [HTML & CSS F8 - Youtube](https://www.youtube.com/playlist?list=PL_-VfJajZj0U9nEXa4qyfB4U5ZIYCMPlz)
 - [JS F8 - Youtube](https://www.youtube.com/playlist?list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5) - [Một khóa JS nâng cao khác cũng của F8](https://www.youtube.com/playlist?list=PL_-VfJajZj0U1MSx1IMu13oLJq2nM97ac)
 - [ReactJS 2022](https://www.youtube.com/playlist?list=PL_-VfJajZj0UXjlKfBwFX73usByw3Ph9Q)
 - [NodeJS & ExpressJS](https://www.youtube.com/playlist?list=PL_-VfJajZj0VatBpaXkEHK_UPHL7dW6I3)
 
-#### Rust
+### Rust
 - [Rust Tiếng Việt](https://rust-tieng-viet.github.io/)
 - [Rust By Example Tiếng Việt](https://rustvn.ezidev.tech/)
 
-#### C++
+### C++
 - [Lập trình C++ từ cơ bản đến nâng cao](https://www.youtube.com/playlist?list=PL_-VfJajZj0Uo72G_6tSY4NRLpmffeXSA)
 
-### Bảo mật
+## Bảo mật
 - [opsec-guide](https://github.com/ndbiaw/opsec-guide) -  Hướng dẫn thực hành căn bản về bảo mật thông tin cá nhân/danh tính trên không gian mạng, chống lại việc dò tìm thông tin. 
 
-### Hệ thống
+## Hệ thống
 - [git-github-for-sysadmin](https://github.com/hocchudong/git-github-for-sysadmin) -  Hướng dẫn sử dụng git, github 
 - [Windows Terminal và WSL](https://www.youtube.com/playlist?list=PL_-VfJajZj0XGfh528VqhlgXUfzw1Y0N7)
 
-### Học ở bậc đại học
+## Học ở bậc đại học
 - [Kho tài liệu học tập UIT](http://svuit.org/mmtt/)
 - [Tài liệu HUST](https://tailieuhust.com/) - Tài liệu ở HUST.
 

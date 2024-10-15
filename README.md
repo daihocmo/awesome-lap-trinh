@@ -55,7 +55,8 @@ Bạn sẽ cần học Tiếng Anh song song với chương trình này.
 - [Tiếng Anh chuyên ngành Công nghệ thông tin - Bộ thẻ Anki](https://ankivn.com/bo-the/ngoai-ngu/tieng-anh/tieng-anh-chuyen-nganh-cong-nghe-thong-tin/)
 
 ## Lập trình
-Hầu hết các chương trình đại học cho ngành KHMT đều bắt đầu với phần “giới thiệu” về lập trình máy tính. Các khóa học tốt nhất cho chủ đề này không chỉ giúp cho người mới học, mà còn rất tốt chho những người đã bỏ lỡ các khái niệm và mô hình lập trình khi họ mới học viết mã.
+
+Các khóa ở dưới đều có phụ đề Tiếng Việt
 
 - [CS50 Vietsub](https://www.youtube.com/playlist?list=PLJ3cEjfn1AKRdtE2KNLCw0sgBfdmAeulI) - Bản Vietsub cho khoá CS50 của Loan Hà.
 - [SICP](https://github.com/thu-vien-mo/sicp-vi) - Sách siêu cấp, đang dịch sang Tiếng Việt nên chưa có đâu.
@@ -65,19 +66,13 @@ Hầu hết các chương trình đại học cho ngành KHMT đều bắt đầ
 - [Software Architecture](https://www.coursera.org/learn/software-architecture) 
 
 ## Kiến trúc máy tính
-Kiến trúc Máy tính — đôi khi được gọi là “hệ thống máy tính” hoặc “tổ chức của máy tính” — là một góc nhìn quan trọng đầu tiên về phần tính toán bên dưới bề mặt của phần mềm. Theo kinh nghiệm của chúng tôi, đó là lĩnh vực bị bỏ qua nhất trong các kỹ sư phần mềm tự học.
-
 - [IT006 - Kiến trúc máy tính](https://svuit.org/mmtt/docs/MonHocCoSoNganh/IT006.html)
 
 ## Thuật toán
-Chúng tôi đồng ý với sự đồng thuận chung trong nhiều thập kỷ rằng sự quen thuộc với các thuật toán và cấu trúc dữ liệu phổ biến là một trong những đặc điểm có nhiều ý nghĩa nhất của chương trình giáo dục khoa học máy tính. Đây cũng là một nơi tuyệt vời để đào tạo khả năng giải quyết vấn đề chung của một người, khả năng này sẽ mang lại hiệu quả trong mọi lĩnh vực nghiên cứu khác.
-
 - [Giải thuật và Lập trình – Lê Minh Hoàng](https://archive.org/details/giai-thuat-va-lap-trinh-le-minh-hoang)
 - [IT003 - Cấu trúc dữ liệu và giải thuật](https://svuit.org/mmtt/docs/MonHocCoSoNganh/IT003.html)
 
 ## Toán
-Theo một cách nào đó, khoa học máy tính là một nhánh của toán học ứng dụng đã phát triển quá nhanh. Mặc dù nhiều kỹ sư phần mềm cố gắng bỏ qua chủ đề này ở các mức độ khác nhau, chúng tôi khuyến khích bạn nắm bắt nó bằng cách nghiên cứu trực tiếp. Nếu học được thành công sẽ mang lại cho bạn một lợi thế cạnh tranh to lớn so với những người không học.
-
 Các bác học hết Calculus A, B, C với khóa [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/).
 
 Nếu bác muốn học toàn bằng Tiếng Anh thì: [https://github.com/ossu/computer-science#core-math](https://github.com/ossu/computer-science#core-math)
@@ -88,24 +83,16 @@ Nếu bác muốn học toàn bằng Tiếng Anh thì: [https://github.com/ossu/
 - [IT007.M14-Operating-Systems](https://github.com/PhamThe-KHDL/IT007.M14-Operating-Systems)
 
 ## Mạng máy tính 
-Thực tế hiện nay có rất nhiều kỹ thuật phần mềm nằm trên máy chủ web và máy khách, nên một trong những lĩnh vực có giá trị tức thì của khoa học máy tính là mạng máy tính. Các sinh viên tự học của chúng tôi, những người nghiên cứu mạng máy tính một cách có phương pháp thấy rằng cuối cùng họ cũng hiểu các thuật ngữ, khái niệm và giao thức mà họ đã nhìn thấy trong trong nhiều năm.
-
 - [IT005 - Nhập môn mạng máy tính](https://svuit.org/mmtt/docs/MonHocCoSoNganh/IT005.html)
 
 ## Cơ sở dữ liệu
-Tự học về hệ thống cơ sở dữ liệu sẽ mất nhiều công sức hơn so với hầu hết các chủ đề khác. Đây là một lĩnh vực nghiên cứu tương đối mới (tức là sau những năm 1970) với những giá trị thương mại lớn cho các ý tưởng tưởng được giữ lại sau các cánh cửa đóng kín. Ngoài ra, nhiều tác giả tiềm năng cho các giáo trình xuất sắc tiềm năng đã muốn tham gia hoặc thành lập các công ty hơn là viết sách.
-
 - [IT004 - Cơ sở dữ liệu](https://svuit.org/mmtt/docs/MonHocCoSoNganh/IT004.html)
 - [IT004.L19-Database](https://github.com/PhamThe-KHDL/IT004.L19-Database)
 
 ## Ngôn ngữ và trình biên dịch
-Hầu hết các lập trình viên học ngôn ngữ, trong khi hầu hết các nhà khoa học máy tính học về ngôn ngữ. Điều này mang lại cho nhà khoa học máy tính một lợi thế khác biệt so với lập trình viên, ngay cả trong lĩnh vực lập trình! Kiến thức của họ khái quát; họ có thể hiểu hoạt động của một ngôn ngữ mới sâu hơn và nhanh hơn so với những người chỉ đơn thuần học một ngôn ngữ cụ thể.
-
 - [Hướng dẫn thiết kế trình biên dịch cho người mới bắt đầu](https://www.guru99.com/vi/compiler-tutorial.html)
 
 ## Hệ thống phân tán
-Khi số lượng máy tính tăng lên, chúng cũng lan rộng. Trong khi các doanh nghiệp trước đây thường mua các máy tính càng ngày càng lớn hơn, thì giờ đây việc các ứng dụng thậm chí rất nhỏ chạy trên nhiều máy tính cũng rất phổ biến. Hệ thống phân tán là nghiên cứu về các đánh đổi khi sử dụng nó.
-
 ### Tìm hiểu về hệ phân tán
 Được đăng bởi [Hero Gustin](https://viblo.asia/u/HuyenNguyen) trên [Viblo](https://viblo.asia).
 
@@ -142,6 +129,10 @@ Khi số lượng máy tính tăng lên, chúng cũng lan rộng. Trong khi các
 
 ### C++
 - [Lập trình C++ từ cơ bản đến nâng cao](https://www.youtube.com/playlist?list=PL_-VfJajZj0Uo72G_6tSY4NRLpmffeXSA)
+
+### Java
+- [loda.me]()
+
 
 ## Bảo mật
 - [opsec-guide](https://github.com/ndbiaw/opsec-guide) -  Hướng dẫn thực hành căn bản về bảo mật thông tin cá nhân/danh tính trên không gian mạng, chống lại việc dò tìm thông tin. 

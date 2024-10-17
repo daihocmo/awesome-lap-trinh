@@ -147,9 +147,7 @@ Dành cho việc học một ngôn ngữ (hoặc một mảng) lập trình cụ
 - [Lập trình hướng đối tượng trong C++ - Codelearn](https://codelearn.io/learning/lap-trinh-huong-doi-tuong-trong-cpp)
 - [C++ nâng cao](https://codelearn.io/learning/cpp-nang-cao)
 - [C++ MFC](https://www.youtube.com/playlist?list=PLfszubEEhakf7mGTDjsImyp-YGU69_S5k)
-- [C++ QT GUI](https://www.youtube.com/playlist?list=PLVLXkgfvvxZWMFAuB8RjZ6Ex6Hc4hWtGq)
-- [C++ lập trình game đa nền tảng với engine Cocos2DX](https://www.youtube.com/playlist?list=PLzrVYRai0riQT2Ss1i_V40UAycn50QQsU)
-- [C++ lập trình game với Unreal Engine](https://www.youtube.com/playlist?list=PLYPJkukC0aLaKRMt9Y0PIOtbJ27UGhB8J)
+
 
 ### Java
 Tham khảo [Chia sẻ lộ trình tự học đến khi có OFFER FRESHER (Java) đầu tiên](https://voz.vn/t/chia-se-lo-tinh-tu-hoc-den-khi-co-offer-fresher-java-dau-tien.757819/)
@@ -157,8 +155,6 @@ Tham khảo [Chia sẻ lộ trình tự học đến khi có OFFER FRESHER (Java
 - [Java all](https://github.com/loda-kun/java-all) -  Hướng dẫn tất tần tật về Java 
 - [java-co-ban - codelearn.io](https://codelearn.io/learning/java-co-ban)
 - [Lập trình hướng đối tượng trong Java - Codelearn](https://codelearn.io/learning/lap-trinh-huong-doi-tuong-trong-java)
-- [loda-kun/spring-boot-learning](https://github.com/loda-kun/spring-boot-learning) - Hướng dẫn tất tần tật về Spring Boot, Spring Cloud.
-- [Khóa học lập trình JavaFX](https://www.youtube.com/playlist?list=PL33lvabfss1yRgFCgFXjtYaGAuDJjjH-j) - Kteam
 - [Design Pattern với Java](https://youtube.com/playlist?list=PLRoAKls-7kksSBqximU9CjBgCApQVDgmX&si=-f2MZgH9m7kyc6Ih)
 - [Java JDBCL](https://youtube.com/playlist?list=PLyxSzL3F7484gAqOtnw7v1lU7fpDDfyt_&si=o5ijDOs6DrjRN9BF)
 
@@ -172,20 +168,6 @@ Tham khảo [Chia sẻ lộ trình tự học đến khi có OFFER FRESHER (Java
 - [Lập trình C# cơ bản - XUANTHULAB](https://xuanthulab.net/lap-trinh-c-co-ban/)
 - [C# cơ bản và hướng đối tượng](https://www.youtube.com/playlist?list=PLE1qPKuGSJaANYwZJweIuzceWHCJI8mnE)
 - [C# từ cơ bản đến nâng cao cho đến .Net Core MVC](https://www.youtube.com/playlist?list=PLwJr0JSP7i8BERdErX9Ird67xTflZkxb-)
-- [C# WPF](https://www.youtube.com/playlist?list=PL33lvabfss1ywgHcDF2aB8YBxwtj1_Rjk)
-- [C# Winform](https://www.youtube.com/playlist?list=PL33lvabfss1y2T7yK--YZJHCsU7LZVzBS)
-- [C# làm Automation Test với Selenium](https://www.youtube.com/playlist?list=PL33lvabfss1ys_UxBqlKvdm6mVs1sL9T2)
-- [C# làm crawl data cào dữ liệu từ Web](https://www.youtube.com/playlist?list=PL33lvabfss1w4-G4wujhFVZGTlFkooCck)
-- [ASP.NET MVC Core cơ bản](https://www.youtube.com/playlist?list=PLRhlTlpDUWsxSup77UnO2pWEkr4ahTohJ)
-- [ASP.NET MVC Core thực hành với 1 dự án web Shop](https://www.youtube.com/playlist?list=PLRhlTlpDUWsyN_FiVQrDWMtHix_E2A_UD)
-- [ASP.NET Core Web API](https://www.youtube.com/playlist?list=PLE5Bje814fYbhdwSHiHN9rlwJlwJ2YD3t)
-- [ASP.NET Core Web API kết hợp Angular 12](https://www.youtube.com/playlist?list=PLiNjao7yG415y_J0G21QUc40akV2vRntP)
-- [ASP.NET Core 7 Api và Websocket xây dựng ứng dụng chứng khoán](https://www.youtube.com/watch?v=hNoCIW4iM10)
-- [C# xây dựng Websocket GameServer đánh cờ caro và kết nối với client web làm bằng Cocos Creator](https://www.youtube.com/playlist?list=PLm5N2Ku5IP9eZPS20m8AEpdzYNB-lQ7Dp)
-- [C# làm game với Unity cơ bản](https://www.youtube.com/playlist?list=PLl-dkipSQUGcQQgvh9j8a75Sz4zx9vWo8)
-- [C# Unity game quy chuẩn đi làm ở công ty](https://www.youtube.com/playlist?list=PLE5Rxh1l0Qs5zorOJMa777FzSYoTNreJH)
-- [C# Unity game nặng về Design Pattern](https://www.youtube.com/playlist?list=PL9YFzEkTXjbOUFE0wCrSa4SAjJN7Nz6yq)
-- [C# Unity làm multiplayer game bằng Playfab Azure Cloud](https://www.youtube.com/playlist?list=PLRz-2ltlXLUKYiFcSG1ME0G5-ukGCHtc_)
 - [BoyBanhMi/CSharp](https://github.com/BoyBanhMi/CSharp) - Chia sẻ code C# 
 
 
@@ -207,8 +189,6 @@ Tham khảo [Chia sẻ lộ trình tự học đến khi có OFFER FRESHER (Java
 - [Rust Tiếng Việt](https://rust-tieng-viet.github.io/)
 - [Rust By Example Tiếng Việt](https://rustvn.ezidev.tech/)
 - [Rust cơ bản và nâng cao](https://www.youtube.com/playlist?list=PLFnEYduGTiXE2ejxmzTIraP2feI-pmeuw)
-- [Rust Backend với Axum Framework](https://www.youtube.com/playlist?list=PLFnEYduGTiXECmUCzYCjIG17DpFZP_nwY)
-- [Rust Backend Microservice với Axum, Tokio, PostgreSQL](https://www.youtube.com/playlist?list=PLFnEYduGTiXEPQ1pVCcg5zxgBS4RwM6wd)
 
 ### XML
 * [Học XML cơ bản và nâng cao](https://hoclaptrinh.vn/tutorial/hoc-xml-co-ban-va-nang-cao)

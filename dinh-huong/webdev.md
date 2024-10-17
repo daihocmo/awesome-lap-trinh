@@ -16,8 +16,7 @@ Khu này chỉ là khởi đầu, đây là [một danh sách riêng tổng hợ
 
 ## Linh tinh
 - [TailwindCSS](https://www.youtube.com/playlist?list=PLd8OdiciAE1TkDTHIytrVT5Eamgseh9LU) - CSS framework
-- [HTMX]() - Thư viện front-end JavaScript
-- [Boostrap]()
+<!-- - [HTMX]() - Thư viện front-end JavaScript -->
 * [Tự học Bootstrap 4 cơ bản](https://www.youtube.com/playlist?list=PLQi-dJ8Gqv2i1NHD8f-E2w-zrrr9G7HUJ) - VIETPRO
 
 ## Frontend Web Framework 
@@ -38,23 +37,38 @@ Khu này chỉ là khởi đầu, đây là [một danh sách riêng tổng hợ
 - [NodeJS & ExpressJS](https://www.youtube.com/playlist?list=PL_-VfJajZj0VatBpaXkEHK_UPHL7dW6I3)
 * [NodeJS Web Server Sử Dụng Express 2020](https://www.youtube.com/playlist?list=PLkY6Xj8Sg8-s-m-qFBQFoeNSfpCTBiwMU) - CodersX
 
-## Phát triển Web
 
-### Frontend
-
-### Backend
+## Backend
+### Khởi điểm
 - [Lý thuyết Backend Engineer cơ bản](https://www.youtube.com/playlist?list=PLw-L1SGSvTEcBzw9FsP5UFWqrErzS2jE2)
 - [Giải thích nhiều thứ về lập trình Backend](https://youtube.com/playlist?list=PL80CNtS5d8_xw7D9YY9lZKgSxj8ULRw7C&si=t6MObEiXEa82uwwG)
-
-- [Backend Golang bằng Gin framework](https://www.youtube.com/playlist?list=PLOsM_3jFFQRl3tAqDVU-nPJOHBfXJVnaM)
-- [Backend Golang bằng Echo framework](https://www.youtube.com/playlist?list=PLC4c48H3oDRw1827KV6GY8g887UC8usn-)
-- [Backend Golang bằng Fiber framework](https://www.youtube.com/playlist?list=PLV21qTqtW_f9oZZPtqMMFuueMkyOKbarH)
 
 ### Microservices
 - [Microservices backend](https://www.youtube.com/playlist?list=PLw0w5s5b9NK5SUfrJ8rjIMYitT9K8WB8W)
 - [Linux command và deploy dự án backend web lên server thật](https://www.youtube.com/playlist?list=PL_-VfJajZj0XGfh528VqhlgXUfzw1Y0N7)
 - [Amazon Web Service](https://www.youtube.com/playlist?list=PLjCpH2Qpki-sTjdlYXE8AifSKQFa8ZL23)
 
+
+## Mục riêng cho từng ngôn ngữ
+### Java
+- [Java Spring Boot](https://www.youtube.com/playlist?list=PLWBrqglnjNl2xQqLFXnu5H2LzDuxpbutD)
+(https://www.youtube.com/playlist?list=PLERZxbt5-EU8XngTHhnE5d530h7uEMgpP)
+(https://www.youtube.com/playlist?list=PL2xsxmVse9Ibe6ZGXUTOfz52RO6xJkhmT)
+- [Java Spring Microservices](https://www.youtube.com/playlist?list=PLnKoBOgxxO68WAD4RsdfkrhZDpd5a4cy0)
+- [Java Selenium](https://www.youtube.com/playlist?list=PLgcMOggxCIP0-FvEujgl6SfzYOorjcgwU)
+- [loda-kun/spring-boot-learning](https://github.com/loda-kun/spring-boot-learning) - Hướng dẫn tất tần tật về Spring Boot, Spring Cloud.
+
+### Golang 
+- [Backend Golang bằng Gin framework](https://www.youtube.com/playlist?list=PLOsM_3jFFQRl3tAqDVU-nPJOHBfXJVnaM)
+- [Backend Golang bằng Echo framework](https://www.youtube.com/playlist?list=PLC4c48H3oDRw1827KV6GY8g887UC8usn-)
+- [Backend Golang bằng Fiber framework](https://www.youtube.com/playlist?list=PLV21qTqtW_f9oZZPtqMMFuueMkyOKbarH)
+
+
+### Rust
+- [Rust Backend với Axum Framework](https://www.youtube.com/playlist?list=PLFnEYduGTiXECmUCzYCjIG17DpFZP_nwY)
+- [Rust Backend Microservice với Axum, Tokio, PostgreSQL](https://www.youtube.com/playlist?list=PLFnEYduGTiXEPQ1pVCcg5zxgBS4RwM6wd)
+
+## Khu linh tinh
 ### Demo ứng dụng
 - [RabbitMQ và demo ứng dụng bằng NodeJS](https://www.youtube.com/playlist?list=PLw0w5s5b9NK4V21Tv0_OTHxvwDFRihC0R)
 - [Kafka và demo bằng Spring Boot](https://www.youtube.com/playlist?list=PLsfLgp1K1xQ42CWP8dsIa7OT2EJFnRGGd)
@@ -65,11 +79,6 @@ Khu này chỉ là khởi đầu, đây là [một danh sách riêng tổng hợ
 
 
 
-[Java Spring Boot](https://www.youtube.com/playlist?list=PLWBrqglnjNl2xQqLFXnu5H2LzDuxpbutD)
-(https://www.youtube.com/playlist?list=PLERZxbt5-EU8XngTHhnE5d530h7uEMgpP)
-(https://www.youtube.com/playlist?list=PL2xsxmVse9Ibe6ZGXUTOfz52RO6xJkhmT)
-[Java Spring Microservices](https://www.youtube.com/playlist?list=PLnKoBOgxxO68WAD4RsdfkrhZDpd5a4cy0)
-[Java Selenium](https://www.youtube.com/playlist?list=PLgcMOggxCIP0-FvEujgl6SfzYOorjcgwU)
 
 
 [Python làm backend bằng Flask Framework](https://www.youtube.com/playlist?list=PLlVHoHHccp28Q_4XoHAFuNsi92wBeI3Fw)
@@ -98,10 +107,14 @@ Khu này chỉ là khởi đầu, đây là [một danh sách riêng tổng hợ
 * [WordPress Nâng Cao](https://www.youtube.com/playlist?list=PLl4nkmb3a8w3qzoFaXLsPohofWUMTOHBU) - Thạch Phạm
 * [Xây dựng Plugin Wordpress căn bản](https://www.youtube.com/playlist?list=PLv6GftO355AucJ4Td8_6h007nQuVJQsPN) - ZendVN
 
-
-
-### ASP
-
+### C# & ASP.NET
+- [C# làm Automation Test với Selenium](https://www.youtube.com/playlist?list=PL33lvabfss1ys_UxBqlKvdm6mVs1sL9T2)
+- [C# làm crawl data cào dữ liệu từ Web](https://www.youtube.com/playlist?list=PL33lvabfss1w4-G4wujhFVZGTlFkooCck)
+- [ASP.NET MVC Core cơ bản](https://www.youtube.com/playlist?list=PLRhlTlpDUWsxSup77UnO2pWEkr4ahTohJ)
+- [ASP.NET MVC Core thực hành với 1 dự án web Shop](https://www.youtube.com/playlist?list=PLRhlTlpDUWsyN_FiVQrDWMtHix_E2A_UD)
+- [ASP.NET Core Web API](https://www.youtube.com/playlist?list=PLE5Bje814fYbhdwSHiHN9rlwJlwJ2YD3t)
+- [ASP.NET Core Web API kết hợp Angular 12](https://www.youtube.com/playlist?list=PLiNjao7yG415y_J0G21QUc40akV2vRntP)
+- [ASP.NET Core 7 Api và Websocket xây dựng ứng dụng chứng khoán](https://www.youtube.com/watch?v=hNoCIW4iM10)
 * [Làm dự án với ASP.NET Core 3.1](https://tedu.com.vn/khoa-hoc/lam-du-an-voi-aspnet-core-31-34.html) - TEDU
 * [Lập trình ASP.NET Core từ căn bản đến nâng cao](https://tedu.com.vn/khoa-hoc/lap-trinh-aspnet-core-tu-co-ban-den-nang-cao-33.html) - TEDU
 * [Lập trình dự án Website bán hàng ASP.NET MVC 4](https://tedu.com.vn/khoa-hoc/lap-trinh-du-an-website-ban-hang-aspnet-mvc-4-1.html) - TEDU

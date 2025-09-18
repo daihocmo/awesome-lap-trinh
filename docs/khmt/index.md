@@ -1,9 +1,5 @@
 # Tự học Khoa học Máy Tính
 
-Dành cho những bạn muốn học thông qua các chương trình học bằng Tiếng Việt (Sẽ vẫn phải sử dụng một phần Tiếng Anh trong quá trình học). Giáo trình này được phát triển và truyền cảm hứng bởi [TeachYourselfCS](https://teachyourselfcs.com/).
-
-Nếu bạn có thể học dựa trên giáo trình gốc với các bài giảng bằng Tiếng Anh, mình gợi ý mọi người dành thời gian để học giáo trình của TeachYourselfCS hoặc OSSU. Giáo trình này cũng sẽ đặt các cuốn sách Tiếng Anh tương ứng cho mọi người có thể chọn.
-
 ## Tóm tắt
 
 Học tất cả 9 chủ đề dưới đây (Không tính Tiếng Anh, ta sẽ học Tiếng Anh song song với chương trình này), nên theo thứ tự, sử dụng loạt bài giảng video hoặc sách giáo trình được gợi ý dưới đây, lý tưởng nhất là học cả hai. Dành khoảng 100-200 giờ học cho mỗi chủ đề (Không tính Tiếng Anh), bạn hoàn toàn có thể quay lại học nếu muốn tìm hiểu sâu thêm.
@@ -32,7 +28,7 @@ Cả hai đều tự gọi mình là kỹ sư phần mềm và cả hai đều c
 
 Các kỹ sư loại 1 tìm cách học chuyên sâu về KHMT, cho dù thông qua các kiểu học truyền thống hay bằng cách học hỏi không ngừng nghỉ trong suốt sự nghiệp của họ. Các kỹ sư loại 2 thường chỉ học ngọn, học các công cụ và công nghệ cụ thể hơn là nền tảng cơ bản tạo ra chúng, chỉ học các kỹ năng mới khi các công nghệ mới diễn ra và xuất hiện.
 
-Hiện tại, số lượng người vào ngành IT đang tăng lên nhanh chóng, trong khi số lượng người tốt nghiệp KHMT thì  tương đối ổn định. Tình trạng dư cung của cá kỹ sư loại 2 này đang bắt đầu làm giảm cơ hội việc làm của chính họ, và đẩy họ ra khỏi ngành IT. Cho dù bạn đang phấn đấu để trở thành kỹ sư loại 1 hay chỉ đơn giản là tìm kiếm công việc an toàn hơn, học KHMT là con đường đúng đắn duy nhất.
+Hiện tại, số lượng người vào ngành IT đang tăng lên nhanh chóng, trong khi số lượng người tốt nghiệp KHMT thì tương đối ổn định. Tình trạng dư cung của các kỹ sư loại 2 này đang bắt đầu làm giảm cơ hội việc làm của chính họ, và đẩy họ ra khỏi ngành IT. Cho dù bạn đang phấn đấu để trở thành kỹ sư loại 1 hay chỉ đơn giản là tìm kiếm công việc an toàn hơn, học KHMT là con đường đúng đắn duy nhất.
 
 ## Hướng dẫn chi tiết cho các chủ đề
 
@@ -69,48 +65,37 @@ Bạn sẽ học Tiếng Anh song song với việc học *Khoa học máy tính
 
 ### Lập trình
 
-Gợi ý chung nhất là cuốn SICP. Nó được cung cấp trực tuyến miễn phí dưới dạng [sách điện tử](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html), và dưới dạng một tập hợp [các bài giảng video của MIT](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/). Gợi ý khác là [bài giảng SICP của Brian Harvey](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter) (cho khóa học 61A tại Berkeley). Các bài giảng này được trau chuốt hơn và hướng đến đối tượng là sinh viên mới tốt hơn so với các bài giảng của MIT.
+Gợi ý chung nhất là cuốn SICP:
 
-Thay vào đó, bạn cũng có thể bắt đầu bằng khóa [CS50 Vietsub](https://www.youtube.com/playlist?list=PLJ3cEjfn1AKRdtE2KNLCw0sgBfdmAeulI) trên Youtube.
- 
-Sau khi học xong chương trình được gợi ý, bạn có thể thực hành lập trình bằng cách giải một loạt các bài tập về lập trình trên [exercism.io](http://exercism.io/) (Hoặc bất kì trang nào mà bạn thích!).
+- [Bản sách điện tử](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html) - Hoàn toàn miễn phí, và còn có bản dịch Tiếng Việt của sách: [Cấu trúc và diễn giải chương trình máy tính](https://thu-tram.github.io/sicp-vi).
+- Khóa học: [6001 - Được dạy bởi chính tác giả của sách](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/). 
+- [CS61A của Brian Harvey](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter) (cho khóa học 61A tại Berkeley) - Các bài giảng này được trau chuốt hơn và hướng đến đối tượng là sinh viên mới tốt hơn so với các bài giảng của MIT.
 
-Nếu bạn không cảm thấy thích SICP, hãy thử *[Soạn thảo chương trình](https://composingprograms.com/)*. Nếu vẫn không phù hợp, hãy thử *[Cách thiết kế các chương trình](http://www.htdp.org/)*. Nếu không có tài liệu nào trong số này làm bạn cảm thấy bạn có thể dành công sức cho nó, có lẽ đó là một dấu hiệu cho thấy bạn nên tập trung vào các chủ đề khác trong một thời gian và xem lại chủ đề lập trình này trong một hoặc hai năm nữa.
+Cuối cùng, một điểm cần làm rõ: hướng dẫn này KHÔNG dành cho những người mới học lập trình. mình giả định rằng bạn là một lập trình viên có năng lực nhưng chưa có nền tảng về KHMT, đang tìm cách lấp đầy một số lỗ hổng kiến ​​thức.
 
-Cuối cùng, một điểm cần làm rõ: hướng dẫn này KHÔNG được thiết kế cho những người hoàn toàn mới học lập trình. mình giả định rằng bạn là một lập trình viên có năng lực mà không có nền tảng về KHMT, đang tìm cách lấp đầy một số lỗ hổng kiến ​​thức. Thực tế là mình đặt ra một chủ đề về "lập trình" chỉ đơn giản là một lời nhắc nhở rằng bạn có thể cần tìm hiểu nhiều hơn nữa.
-
-Đối với những người chưa từng lập trình, có thể thử đọc [cái này](https://www.reddit.com/r/learnprogramming/wiki/faq#wiki_getting_started).
+Đối với những người chưa từng lập trình, có thể bắt đầu học khóa [CS50 Vietsub](https://www.youtube.com/playlist?list=PLJ3cEjfn1AKRdtE2KNLCw0sgBfdmAeulI) trên Youtube. Sau khi học xong chương trình được gợi ý, bạn có thể thực hành lập trình bằng cách giải một loạt các bài tập về lập trình trên [exercism.io](http://exercism.io/) (Hoặc bất kì trang nào mà bạn thích!).
 
 ### Kiến trúc máy tính
 
-Kiến trúc Máy tính — là một góc nhìn quan trọng đầu tiên về phần tính toán bên dưới bề mặt của phần mềm. Theo kinh nghiệm của mình, đó là lĩnh vực bị bỏ qua nhất trong các kỹ sư phần mềm tự học.
+Kiến trúc Máy tính — là một góc nhìn quan trọng đầu tiên về phần tính toán bên dưới bề mặt của phần mềm. Theo kinh nghiệm của mình, đó là lĩnh vực bị các kỹ sư phần mềm bỏ qua nhiều nhất trong quá trình tự học.
 
-Gợi ý *[Hệ thống máy tính: Góc nhìn của một lập trình viên (CS:APP - tên viết tắt tiếng Anh)](http://csapp.cs.cmu.edu/3e/home.html)*. Sách có cách tiếp cận thực tế, hướng đến lập trình viên. Mặc dù vẫn có nhiều thứ về kiến ​​trúc máy tính trong hơn những gì được đề cập trong cuốn sách, nhưng nó là một điểm khởi đầu tuyệt vời cho những ai muốn hiểu về hệ thống máy tính nhằm để viết ra các *phần mềm* nhanh hơn, hiệu quả hơn, và đáng tin cậy hơn.
+Gợi ý: *[Hệ thống máy tính: Góc nhìn của một lập trình viên (CS:APP - tên viết tắt tiếng Anh)](http://csapp.cs.cmu.edu/3e/home.html)*. Sách có cách tiếp cận thực tế, hướng đến lập trình viên. Mặc dù vẫn có nhiều thứ về kiến ​​trúc máy tính trong hơn những gì được đề cập trong cuốn sách, nhưng nó là một điểm khởi đầu tuyệt vời cho những ai muốn hiểu về hệ thống máy tính nhằm để viết ra các *phần mềm* nhanh hơn, hiệu quả hơn, và đáng tin cậy hơn.
 
-Một gợi ý khác "nhẹ nhàng hơn" là *Các yếu tố của hệ thống máy tính*, còn được gọi là "Nand2Tetris". Đây là một cuốn sách đầy tham vọng nhằm cung cấp cho bạn sự hiểu biết đầy đủ về cách mọi thứ trong máy tính hoạt động. Mỗi chương liên quan đến việc xây dựng một phần nhỏ của hệ thống tổng thể, từ việc viết các cổng logic cơ bản trong HDL, thông qua CPU và assembler, cho đến một ứng dụng có kích thước bằng một trò chơi Tetris.
+Một gợi ý khác "nhẹ nhàng hơn" là "Nand2Tetris". Đây là một cuốn sách đầy tham vọng nhằm cung cấp cho bạn sự hiểu biết đầy đủ về cách mọi thứ trong máy tính hoạt động. Mỗi chương liên quan đến việc xây dựng một phần nhỏ của hệ thống tổng thể, từ việc viết các cổng logic cơ bản trong HDL, thông qua CPU và assembler, cho đến một ứng dụng có kích thước bằng một trò chơi Tetris.
 
-Một khóa học hiếm hoi mà mình tìm được bằng Tiếng Việt là khóa IT3030. Các tài nguyên hỗ trợ việc học IT3030:
-
-- Giáo trình: [Computer Organization And Design](https://archive.org/details/computer-organization-and-design-fifth-edition-the-hardware-software-interface-by-hennessy)
-- Khóa học: [Kiến trúc máy tính (IT3030) - SOICT HUST](https://www.youtube.com/playlist?list=PL54DF7EQeBp6a3T4DBIIZrqCzmMoRgvbK)
-- [Slide bài giảng](https://tailieuhust.com/tai-lieu-mon-kien-truc-may-tinh-hust/)
-- [Thông tin thêm về khóa học cũng như các nguồn tài nguyên](http://dce.hust.edu.vn/kien-truc-may-tinh/)
+Một cuốn sách duy nhất về chủ đề này bằng Tiếng Việt là bản dịch Tiếng Việt cho cuốn Dive into Systems: [Đắm mình vào hệ thống](https://thu-tram.github.io/dam-minh-vao-he-thong).
 
 ### Thuật toán và cấu trúc dữ liệu
 
 Làm quen với các thuật toán và cấu trúc dữ liệu phổ biến là một trong những đặc điểm có nhiều ý nghĩa nhất của chương trình giáo dục khoa học máy tính. Đây cũng là điểm nơi tuyệt vời để đào tạo khả năng giải quyết vấn đề chung của một người, khả năng này sẽ mang lại hiệu quả trong mọi lĩnh vực nghiên cứu khác.
 
-Có hàng trăm cuốn sách ngoài kia, nhưng gợi ý sẽ là *[Hướng dẫn Thiết kế Thuật toán](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/)* của Steven Skiena. Theo ý kiến cá nhân (TYCS), hai cuốn sách được nhiều gợi ý hơn (CLRS và Sedgewick) có xu hướng hơi quá nặng theo hướng chứng minh cho những người chủ yếu học lý thuyết đẻ giúp họ giải quyết vấn đề thực tế.
+Có hàng trăm cuốn sách ngoài kia, nhưng gợi ý sẽ là *[Hướng dẫn Thiết kế Thuật toán](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/)* của Steven Skiena. Theo ý kiến cá nhân (TYCS), hai cuốn sách được nhiều gợi ý hơn (CLRS và Sedgewick) có xu hướng hơi quá nặng theo hướng chứng minh cho những người chủ yếu học lý thuyết để giúp họ giải quyết vấn đề thực tế.
 
 Đối với những bạn thích các bài giảng video thì có thể chọn khóa học của Tim Roughgarden ở [trên Coursera](https://www.coursera.org/specializations/algorithm) hoặc [trên trang của ổng](http://timroughgarden.org/videos.html). 
 
 Trên thực tế, có hàng tá lựa chọn thay thế cũng rất tốt, vì vậy nếu bạn tình cờ tìm thấy nguồn tài liệu khác mà bạn thích, bạn nên tiếp tục học sử dụng nguồn tài liệu đó.
 
-Để thực hành, bạn có thể giải các bài toán trên [Leetcode](https://leetcode.com/).
-
-> Tôi chỉ có một phương pháp mà tôi muốn chia sẻ. Đó là suy nghĩ trước khi viết.
->
-> - Richard Hamming
+Để thực hành, bạn có thể giải các bài code trên [Leetcode](https://leetcode.com/) hoặc [Codewars](https://www.codewars.com/).
 
 ### Toán cho KHMT
 
@@ -118,11 +103,15 @@ Theo một cách nào đó, khoa học máy tính là một nhánh của toán h
 
 Lĩnh vực toán học có liên quan nhất đối với KHMT được gọi rộng rãi là “toán học rời rạc”, trong đó “rời rạc” đối lập với “liên tục” và là một tập hợp các chủ đề toán học ứng dụng thú vị ngoài giải tích. Với định nghĩa mơ hồ như vậy, sẽ không có nhiều ý nghĩa nếu cố gắng học mọi thứ về “toán học rời rạc. Một mục tiêu thực tế hơn là xây dựng sự hiểu biết về logic, tổ hợp và xác suất, lý thuyết tập hợp, lý thuyết đồ thị, và một chút lý thuyết số thông báo về mã hoá. Đại số tuyến tính là một lĩnh vực đáng nghiên cứu bổ sung, do tầm quan trọng của nó trong đồ họa máy tính và học máy.
 
-Khởi đầu: [các ghi chú bài giảng của László Lovász](http://www.cs.elte.hu/~lovasz/dmbook.ps). Giáo sư Lovász đã làm rất tốt việc làm cho nội dung dễ tiếp cận và trực quan, vì vậy đây là điểm khởi đầu tốt hơn so với tài liệu chính thức.
+Toán rời rạc:
 
-Để có hiểu sâu hơn, mình gợi ý *[Toán học cho Khoa học Máy tính](https://courses.csail.mit.edu/6.042/spring17/mcs.pdf)*, ghi chú bài giảng dài như sách cho khóa học ở MIT có cùng tên gọi. Video bài giảng của khóa học đó cũng [miễn phí](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/), và là video bài giảng mình khuyên dùng cho môn toán rời rạc.
+- [Các ghi chú bài giảng của László Lovász](http://www.cs.elte.hu/~lovasz/dmbook.ps).
+- *[Toán học cho Khoa học Máy tính (MIT 6042)](https://courses.csail.mit.edu/6.042/spring17/mcs.pdf)*. Video bài giảng của khóa học đó cũng [miễn phí](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/), và là video bài giảng mình khuyên dùng cho môn toán rời rạc.
 
-Đối với đại số tuyến tính, mình khuyên bạn nên bắt đầu với loạt video [Bản chất của đại số tuyến tính](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab), theo sau là [sách của Gilbert Strang](https://www.amazon.com/Introduction-Linear-Algebra-Gilbert-Strang/dp/0980232775/) và [video bài giảng](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/).
+Đại số tuyến tính:
+
+- [Bản chất của đại số tuyến tính - 3blue1brown (Có phụ đề Tiếng Việt nhé)](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab). Chiến khóa [18.06](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/).
+- [Linear Algebra done right](https://linear.axler.net/) - Hoàn toàn miễn phí và chính tác giả của cuốn này cũng làm một khóa học trên Youtube: [Linear Algebra Done Right](https://www.youtube.com/playlist?list=PLGAnmvB9m7zOBVCZBUUmSinFV0wEir2Vw)
 
 Gợi ý các sách học bằng Tiếng Việt:
 
@@ -132,15 +121,11 @@ Nếu bạn muốn tìm hiểu sâu hơn, thì cá nhân mình gợi ý cuốn [
 
 Đối với đại số tuyến tính, bạn có thể xem danh sách phát [Đại số tuyến tính của Giang Le](https://www.youtube.com/playlist?list=PL5g_dfwUnO84IehDgeDlXbwd0pLzhTWSZ) hoặc đọc cuốn [Giáo trình đại số Tuyến tính](https://cuuduongthancong.com/pvf/582841/dai-so-tuyen-tinh/bui-xuan-dieu/bai-giang-dai-so-tuyen-tinh---bui-xuan-dieu.pdf) của Bùi Xuân Diệu.
 
-Mình không thấy TeachYourselfCS đề cập đến Toán cao cấp, nhưng nếu bạn muốn học Toán cao cấp nữa thì có thể sử dụng 3 cuốn [Giáo trình toán cao cấp](https://tailieuvnu.com/giao-trinh-toan-cao-cap-tap-1/) được biên soạn bởi Nguyễn Đình Trí, Tạ Văn Đĩnh và Nguyễn Hồ Quỳnh.
-
 ### Hệ điều hành
 
 Theo quan sát của mình thì môn học này thường được dạy đầu tiên trong các chương trình đào tạo bậc đại học. Nhưng ở trong chương trình này thì mình khuyến khích bạn đã phát triển tương đối về mặt kiến thức thông qua các môn ở trên trước khi bắt đầu.
 
-*Operating Systems: Three Easy Pieces* được xuất bản [trực tuyến và miễn phí](http://pages.cs.wisc.edu/~remzi/OSTEP/). Chúng tôi đặc biệt thích cấu trúc và tính dễ đọc của cuốn sách và cảm thấy rằng các bài tập rất đáng giá.
-
-Một cách rất tốt để củng cố sự hiểu biết của bạn về hệ điều hành là đọc code của kernel và thêm các tính năng. Một gợi ý: [xv6](https://pdos.csail.mit.edu/6.828/2016/xv6.html), một phiên bản từ Unix V6 sang ANSI C và x86, nó được duy trì cho một khóa học tại MIT. *Hệ điều hành: Ba mảnh dễ dàng* có một phụ lục về tiềm năng của [xv6 labs](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf), trong đó nêu ra những ý tưởng tuyệt vời cho các dự án tiềm năng.
+*Operating Systems: Three Easy Pieces* được xuất bản [trực tuyến và miễn phí](http://pages.cs.wisc.edu/~remzi/OSTEP/). Bạn cũng có thể đọc bản dịch Tiếng Việt của sách: [OS Bí truyền thư](https://thu-tram.github.io/ostep-vi).
 
 Gợi ý sách Tiếng Việt: [GIÁO TRÌNH HỆ ĐIỀU HÀNH (OPERATING SYSTEM)](https://www.rachbauer-kran.at/wp-content/uploads/2015/10/BG_HDH.pdf) được biên soạn bởi Ninh Xuân Hải và Huỳnh Trọng Thưa. Về video bài giảng, bạn có thể xem [Nguyên lý hệ điều hành (IT3070) - SOICT HUST](https://www.youtube.com/playlist?list=PL54DF7EQeBp605B_-ECoKaKo2yEA5Fby5)
 
@@ -150,15 +135,11 @@ Có rất nhiều *kỹ thuật phần mềm* nằm trên web server và client,
 
 Cuốn sách yêu thích của chúng tôi về chủ đề này là *[Computer Networking: A Top-Down Approach](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/)*.
 
-Đối với những người thích các bài giảng video, chúng tôi đề xuất [*Khóa học Giới thiệu về Mạng Máy tính*](https://www.youtube.com/playlist?list=PLvFG2xYBrYAQCyz4Wx3NPoYJOFjvU7g2Z) đã được cung cấp trên nền tảng MOOC Lagunita của Standford.
-
 Gợi ý Tiếng Việt: Bạn có thể đọc *[BÀI GIẢNG MẠNG MÁY TÍNH](https://github.com/huyinit/MMT-PTIT/blob/main/M%E1%BA%A1ng-m%C3%A1y-t%C3%ADnh-gi%C3%A1o-tr%C3%ACnh.pdf)* được biên soạn bởi ThS. Nguyễn Xuân Anh.
 
 ### Cơ sở dữ liệu
 
-Tự học về hệ thống cơ sở dữ liệu sẽ mất nhiều công sức hơn so với hầu hết các chủ đề khác. Đây là một lĩnh vực nghiên cứu tương đối mới (tức là sau những năm 1970) với những giá trị thương mại lớn cho các ý tưởng tưởng được giữ lại sau các cánh cửa đóng kín.
-
-Những người tự học nói chung nên tránh sách giáo khoa và bắt đầu với [các video CS 186](https://www.youtube.com/user/CS186Berkeley/videos), đây là khóa học cơ sở dữ liệu của Joe Hellerstein tại Berkeley, sau đó mới tiến sang đọc giáo trình hay tài liệu khác.
+Những người tự học nói chung nên tránh sách giáo khoa và bắt đầu với [Khóa CS186](https://www.youtube.com/user/CS186Berkeley/videos), đây là khóa học cơ sở dữ liệu của Joe Hellerstein tại Berkeley, sau đó mới tiến sang đọc giáo trình hay tài liệu khác.
 
 Bằng Tiếng Việt thì ta có [Cơ sở dữ liệu (IT3090) - SOICT HUST](https://www.youtube.com/playlist?list=PL54DF7EQeBp4CLS8efeXphJ0XTjdYa6cc)
 
@@ -167,11 +148,7 @@ Bằng Tiếng Việt thì ta có [Cơ sở dữ liệu (IT3090) - SOICT HUST](h
 
 Hầu hết các lập trình viên học ngôn ngữ, trong khi hầu hết các nhà khoa học máy tính học *về* ngôn ngữ. Điều này mang lại cho nhà khoa học máy tính một lợi thế khác biệt so với lập trình viên, ngay cả trong lĩnh vực lập trình! Kiến thức của họ khái quát; họ có thể hiểu hoạt động của một ngôn ngữ mới sâu hơn và nhanh hơn so với những người chỉ đơn thuần học một ngôn ngữ cụ thể.
 
-Về gợi ý thì có duy nhất cuốn *[Crafting Interpreters](https://craftinginterpreters.com/contents.html)* của Bob Nystrom (Không tìm được tài liệu Tiếng Việt).
-
-> Đừng là một lập trình viên dập khuôn. Thay vào đó, hãy xây dựng các công cụ cho người dùng và các lập trình viên khác. Hãy xem lại lịch sử của ngành dệt may và thép: bạn muốn chế tạo máy móc và công cụ, hay bạn muốn vận hành những máy móc đó?
->
-> - Ras Bodik nói ở phần mở đầu khóa học trình biên dịch viên của mình
+Về gợi ý thì có duy nhất cuốn *[Crafting Interpreters](https://craftinginterpreters.com/contents.html)* của Bob Nystrom. Bản dịch Tiếng Việt cho cuốn sách này: [Xây dựng trình phiên dịch](https://thu-tram.github.io/xay-dung-trinh-thong-dich)
 
 ### Hệ thống phân tán
 

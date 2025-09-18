@@ -1,0 +1,3881 @@
+
+<!doctype html>
+<html lang="vi" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="vozer vozer vozer vozer vozer vozer vozer">
+      
+      
+        <meta name="author" content="khuhocmo">
+      
+      
+      
+        <link rel="prev" href="../../kotlin/kotlin-foundation/">
+      
+      
+        <link rel="next" href="../backend/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>Fullstack - Tự học khoa học máy tính & lập trình - Khu học mở</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="grey">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#inh-huong-tu-hoc-fullstack" class="md-skip">
+          Bỏ qua
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Đầu trang">
+    <a href="../../.." title="Tự học khoa học máy tính &amp; lập trình - Khu học mở" class="md-header__button md-logo" aria-label="Tự học khoa học máy tính & lập trình - Khu học mở" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Tự học khoa học máy tính & lập trình - Khu học mở
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Fullstack
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="grey"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="grey"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Tìm kiếm" placeholder="Tìm kiếm" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Tìm kiếm">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Chia sẻ" aria-label="Chia sẻ" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Xoá" aria-label="Xoá" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/daihocmo/khmt-lt" title="Xem mã nguồn" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Đóng góp trên Github
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../.." class="md-tabs__link">
+          
+  
+  
+  Trang chủ
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../co-ban/bat-dau/" class="md-tabs__link">
+          
+  
+  
+  Cơ bản
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../khmt/" class="md-tabs__link">
+          
+  
+  
+  Khoa học máy tính
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+  Định hướng
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../ngon-ngu/rust/" class="md-tabs__link">
+          
+  
+  
+  Ngôn ngữ
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../tong-hop/" class="md-tabs__link">
+          
+  
+  
+  Tài nguyên
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Thanh điều hướng" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Tự học khoa học máy tính &amp; lập trình - Khu học mở" class="md-nav__button md-logo" aria-label="Tự học khoa học máy tính & lập trình - Khu học mở" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Tự học khoa học máy tính & lập trình - Khu học mở
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/daihocmo/khmt-lt" title="Xem mã nguồn" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Đóng góp trên Github
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Trang chủ
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Trang chủ
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Trang chủ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Cơ bản
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Cơ bản
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../co-ban/bat-dau/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bài học vỡ lòng
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../co-ban/tu-duy-lap-trinh/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tư duy lập trình
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../co-ban/ghi-nho/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ghi nhớ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../co-ban/nhat-ky-code/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Nhật ký code
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../co-ban/cach-len-ke-hoach/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cách lên kế hoạch
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../co-ban/cach-doc-docs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cách để đọc Documentation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../co-ban/cach-dat-cau-hoi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cách đặt câu hỏi
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../co-ban/lam-that-nhieu-du-an/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Làm thật nhiều dự án
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../co-ban/tim-hieu-them/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tìm hiểu thêm
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Khoa học máy tính
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Khoa học máy tính
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../khmt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Chương trình học
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Định hướng
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Định hướng
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Các định hướng chuyên ngành
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Mobile
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Mobile
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2_1" id="__nav_4_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Native iOS (Swift)
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Native iOS (Swift)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../swift/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Định hướng
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../swift/swift-foundation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Nền tảng Swift
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../swift/swift-uikit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    UIKit
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../swift/swift-swiftui/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SwiftUI
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../swift/swift-advance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Swift nâng cao
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../swift/swift-reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Swift Reference
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2_2" id="__nav_4_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Native Android (Kotlin)
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Native Android (Kotlin)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kotlin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Định hướng
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kotlin/kotlin-foundation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Nền tảng Kotlin
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Web
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            Web
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Fullstack
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fullstack
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Mục lục">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Mục lục
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#fullstack-la-cai-gi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fullstack là cái gì?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chon-lo-trinh-khac" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chọn lộ trình khác
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lo-trinh-hoc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lộ trình học
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lộ trình học">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#inh-huong-cho-chuong-trinh-hoc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Định hướng cho chương trình học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-1-html-css-layout-flexbox-grid" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 1: HTML, CSS, Layout (Flexbox, Grid)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 1: HTML, CSS, Layout (Flexbox, Grid)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-2-javascript-co-ban" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 2: JavaScript cơ bản
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 2: JavaScript cơ bản">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lam-bai-tap-luyen-tap" class="md-nav__link">
+    <span class="md-ellipsis">
+      Làm bài tập luyện tập
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-3-backend-phan-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 3: Backend (Phần 1)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 3: Backend (Phần 1)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oc-them" class="md-nav__link">
+    <span class="md-ellipsis">
+      Đọc thêm
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-4-backend-phan-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 4: Backend (Phần 2)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 4: Backend (Phần 2)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lua-chon-inh-huong" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lựa chọn định hướng
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oc-them_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Đọc thêm
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-5-nosql-databases-mongodb" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 5: NoSQL Databases (MongoDB)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 5: NoSQL Databases (MongoDB)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-6-sql-co-ban" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 6: SQL cơ bản
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 6: SQL cơ bản">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-7-orms-sequelizemongoose" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 7: ORMs (Sequelize/Mongoose)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 7: ORMs (Sequelize/Mongoose)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-8-lua-chon-framework-frontend" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 8: Lựa chọn Framework Frontend
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 8: Lựa chọn Framework Frontend">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oc-them_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Đọc thêm:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-9-hoc-framework-a-chon-tiep-tuc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 9: Học Framework đã chọn (Tiếp tục)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 9: Học Framework đã chọn (Tiếp tục)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-10-typescript-co-ban" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 10: TypeScript cơ bản
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 10: TypeScript cơ bản">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-11-nextjs-co-ban" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 11: Next.js cơ bản
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 11: Next.js cơ bản">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-12-monorepos-va-turborepo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 12: Monorepos và Turborepo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 12: Monorepos và Turborepo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-13-websockets-rtc-co-ban" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 13: Websockets &amp; RTC cơ bản
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 13: Websockets &amp; RTC cơ bản">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-14-testing-co-ban" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 14: Testing cơ bản
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 14: Testing cơ bản">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-15-authentication-jwt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 15: Authentication &amp; JWT
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 15: Authentication &amp; JWT">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-16-toi-uu-co-so-du-lieu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 16: Tối ưu cơ sở dữ liệu
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 16: Tối ưu cơ sở dữ liệu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-17-khai-niem-backend-nang-cao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 17: Khái niệm Backend nâng cao
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 17: Khái niệm Backend nâng cao">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cap-nhat-du-an-cua-ban" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cập nhật dự án của bạn
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-18-ref-populate-va-api-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 18: Ref, Populate, và API Design
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-19-cac-chuc-nang-frontend-nang-cao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 19: Các chức năng Frontend nâng cao
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 19: Các chức năng Frontend nâng cao">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-20-project-planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 20: Project Planning
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 20: Project Planning">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ghi-chu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ghi chú
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-21-capstone-backend-development" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 21: Capstone Backend Development
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 21: Capstone Backend Development">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-lam" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ làm
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-22-capstone-frontend-development" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 22: Capstone Frontend Development
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 22: Capstone Frontend Development">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-lam_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ làm
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-23-real-time-features-trong-capstone" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 23: Real-Time Features trong Capstone
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 23: Real-Time Features trong Capstone">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-24-testing-va-deployment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 24: Testing và Deployment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 24: Testing và Deployment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-25-linting-va-performance-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 25: Linting và Performance Optimization
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 25: Linting và Performance Optimization">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oc-them_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Đọc thêm
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-26-final-enhancements-portfolio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 26: Final Enhancements &amp; Portfolio
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 26: Final Enhancements &amp; Portfolio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ac-biet-chut" class="md-nav__link">
+    <span class="md-ellipsis">
+      Đặc biệt chút
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sau-khi-hoan-thanh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sau khi hoàn thành
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#danh-sach-du-an-goi-y" class="md-nav__link">
+    <span class="md-ellipsis">
+      Danh sách dự án gợi ý
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backend/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Backend
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Game
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            Game
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../game/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Chung
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Ngôn ngữ
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Ngôn ngữ
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ngon-ngu/rust/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rust
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tài nguyên
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Tài nguyên
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tong-hop/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tổng hợp
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Mục lục">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Mục lục
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#fullstack-la-cai-gi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fullstack là cái gì?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chon-lo-trinh-khac" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chọn lộ trình khác
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lo-trinh-hoc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lộ trình học
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lộ trình học">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#inh-huong-cho-chuong-trinh-hoc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Định hướng cho chương trình học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-1-html-css-layout-flexbox-grid" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 1: HTML, CSS, Layout (Flexbox, Grid)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 1: HTML, CSS, Layout (Flexbox, Grid)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-2-javascript-co-ban" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 2: JavaScript cơ bản
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 2: JavaScript cơ bản">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lam-bai-tap-luyen-tap" class="md-nav__link">
+    <span class="md-ellipsis">
+      Làm bài tập luyện tập
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-3-backend-phan-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 3: Backend (Phần 1)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 3: Backend (Phần 1)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oc-them" class="md-nav__link">
+    <span class="md-ellipsis">
+      Đọc thêm
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-4-backend-phan-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 4: Backend (Phần 2)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 4: Backend (Phần 2)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lua-chon-inh-huong" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lựa chọn định hướng
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oc-them_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Đọc thêm
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-5-nosql-databases-mongodb" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 5: NoSQL Databases (MongoDB)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 5: NoSQL Databases (MongoDB)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-6-sql-co-ban" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 6: SQL cơ bản
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 6: SQL cơ bản">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-7-orms-sequelizemongoose" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 7: ORMs (Sequelize/Mongoose)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 7: ORMs (Sequelize/Mongoose)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-8-lua-chon-framework-frontend" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 8: Lựa chọn Framework Frontend
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 8: Lựa chọn Framework Frontend">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oc-them_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Đọc thêm:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-9-hoc-framework-a-chon-tiep-tuc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 9: Học Framework đã chọn (Tiếp tục)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 9: Học Framework đã chọn (Tiếp tục)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-10-typescript-co-ban" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 10: TypeScript cơ bản
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 10: TypeScript cơ bản">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-11-nextjs-co-ban" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 11: Next.js cơ bản
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 11: Next.js cơ bản">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-12-monorepos-va-turborepo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 12: Monorepos và Turborepo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 12: Monorepos và Turborepo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-13-websockets-rtc-co-ban" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 13: Websockets &amp; RTC cơ bản
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 13: Websockets &amp; RTC cơ bản">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-14-testing-co-ban" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 14: Testing cơ bản
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 14: Testing cơ bản">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-15-authentication-jwt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 15: Authentication &amp; JWT
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 15: Authentication &amp; JWT">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-16-toi-uu-co-so-du-lieu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 16: Tối ưu cơ sở dữ liệu
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 16: Tối ưu cơ sở dữ liệu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-17-khai-niem-backend-nang-cao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 17: Khái niệm Backend nâng cao
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 17: Khái niệm Backend nâng cao">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cap-nhat-du-an-cua-ban" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cập nhật dự án của bạn
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-18-ref-populate-va-api-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 18: Ref, Populate, và API Design
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-19-cac-chuc-nang-frontend-nang-cao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 19: Các chức năng Frontend nâng cao
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 19: Các chức năng Frontend nâng cao">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-20-project-planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 20: Project Planning
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 20: Project Planning">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ghi-chu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ghi chú
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-21-capstone-backend-development" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 21: Capstone Backend Development
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 21: Capstone Backend Development">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-lam" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ làm
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-22-capstone-frontend-development" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 22: Capstone Frontend Development
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 22: Capstone Frontend Development">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-lam_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ làm
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-23-real-time-features-trong-capstone" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 23: Real-Time Features trong Capstone
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 23: Real-Time Features trong Capstone">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-24-testing-va-deployment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 24: Testing và Deployment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 24: Testing và Deployment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nguon-tai-nguyen-hoc_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nguồn tài nguyên học
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-25-linting-va-performance-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 25: Linting và Performance Optimization
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 25: Linting và Performance Optimization">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-se-hoc_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bạn sẽ học
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oc-them_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Đọc thêm
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuan-26-final-enhancements-portfolio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuần 26: Final Enhancements &amp; Portfolio
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tuần 26: Final Enhancements &amp; Portfolio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ac-biet-chut" class="md-nav__link">
+    <span class="md-ellipsis">
+      Đặc biệt chút
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sau-khi-hoan-thanh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sau khi hoàn thành
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#danh-sach-du-an-goi-y" class="md-nav__link">
+    <span class="md-ellipsis">
+      Danh sách dự án gợi ý
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="inh-huong-tu-hoc-fullstack">Định hướng tự học Fullstack</h1>
+<p>Hiện tại lộ trình này mình viết cho cá nhân mình dùng nên nó vẫn chưa được hoàn chỉnh. Mình cũng sẽ chỉnh sửa và cải thiện trong quá trình học luôn.</p>
+<h2 id="fullstack-la-cai-gi">Fullstack là cái gì?</h2>
+<blockquote>
+<p>Practically all web applications have (at least) two "layers": the browser, being closer to the end-user, is the top layer, and the server the bottom one. There is often also a database layer below the server. We can therefore think of the architecture of a web application as a stack of layers.</p>
+<p>Often, we also talk about the frontend and the backend. The browser is the frontend, and the JavaScript that runs on the browser is the frontend code. The server on the other hand is the backend.</p>
+<p>In the context of this course, full-stack web development means that we focus on all parts of the application: the frontend, the backend, and the database. Sometimes the software on the server and its operating system are seen as parts of the stack, but we won't go into those.</p>
+</blockquote>
+<h2 id="chon-lo-trinh-khac">Chọn lộ trình khác</h2>
+<p>Nếu bạn muốn học những lộ trình khác thì có thể thử:</p>
+<ul>
+<li><a href="https://fullstackopen.com/en/">Fullstack Open</a></li>
+<li><a href="https://www.theodinproject.com/">TheOdinProject</a></li>
+<li><a href="https://www.freecodecamp.org/learn/full-stack-developer/">FreeCodeCamp</a></li>
+</ul>
+<p>Bạn hoàn toàn có thể sử dụng những hướng dẫn Fullstack trên để hỗ trợ quá trình học của mình.</p>
+<h2 id="lo-trinh-hoc">Lộ trình học</h2>
+<p>Lộ trình sẽ được chia ra làm 26 tuần. Cách học cơ bản của lộ trình là trong mỗi tuần sẽ có những phần kiến thức mà bạn cần (mình nghĩ là cần) học. Bạn hoàn toàn có thể bỏ qua những phần bạn đã học từ trước hoặc muốn học sau (Khi dự án bạn muốn xây dựng cần đến phần kiến thức đó). Lộ trình này được xây dựng dựa trên <a href="https://github.com/nishant-Tiwari24/coding-resources">lộ trình Fullstack của Repo này</a>.</p>
+<p>Mỗi tuần bạn nên thử làm ít nhất một dự án (một ứng dụng đơn giản để áp dụng các nội dung bạn đã học trong tuần, gì cũng được). Mình sẽ để một danh sách gợi ý bên dưới.</p>
+<h3 id="inh-huong-cho-chuong-trinh-hoc">Định hướng cho chương trình học</h3>
+<p>Chương trình học của mình sẽ yêu cầu mọi người đào sâu về Backend hơn Frontend và không đi vào một lựa chọn cụ thể nào. Với Frontend bạn cũng sẽ tự chọn thứ bạn muốn học.</p>
+<ul>
+<li>Ví dụ: Ở mục Frontend, bạn muốn học Vue.js thì tự tìm các nội dung "cơ bản" mà bạn cần học.</li>
+<li>Ở Backend cũng không bắt bạn đi theo một lựa chọn cụ thể nào cả</li>
+</ul>
+<p>Bọn mình sẽ tập trung vào hiểu cốt lõi của cả một ứng dụng. Ở Backend thì có những khái niệm như HTTP GET/POST hay Database, còn Frontend thì có HTML/CSS/JS (Còn lại Framework do bạn chọn).</p>
+<p>Lập trình Web phát triển quá nhanh, hết frontend framework này đến cái khác, công cụ này đến công cụ khác và bạn sẽ rất dễ để bắt gặp các câu hỏi như "Mình nên học cái gì?". Bạn cần phải tự tìm thông tin thêm về thứ bạn muốn chọn.</p>
+<p>Chương trình này không dạy bạn hết về Fullstack và bạn vẫn sẽ còn phải học rất nhiều để nâng cao khả năng của bản thân.</p>
+<h3 id="tuan-1-html-css-layout-flexbox-grid">Tuần 1: HTML, CSS, Layout (Flexbox, Grid)</h3>
+<h4 id="ban-se-hoc">Bạn sẽ học</h4>
+<p>HTML/CSS cơ bản và responsive design. Đồng thời, học cách thiết lập và sử dụng cơ bản các công cụ hỗ trợ cho quá trình lập trình như: VS Code, Chrome DevTools, Postman (cho API testing, bạn chưa cần dùng đến cái này trong quá trình học ban đầu).</p>
+<h4 id="nguon-tai-nguyen-hoc">Nguồn tài nguyên học</h4>
+<p>Nếu bạn muốn xem video thì xem <a href="https://www.youtube.com/playlist?list=PL_-VfJajZj0U9nEXa4qyfB4U5ZIYCMPlz">Khóa HTML/CSS cơ bản của F8 - Tiếng Việt</a>. Hoặc có thể học cả <a href="https://www.theodinproject.com/paths/foundations/courses/foundations#html-foundations">HTML Foundations</a> và <a href="https://www.theodinproject.com/paths/foundations/courses/foundations#css-foundations">CSS Foundations</a> của TheOdinProject. Bạn cũng sẽ được học thêm về: Flexbox, Grid (Layout).</p>
+<p>Đọc thêm các nội dung khác liên quan đến HTML/CSS:</p>
+<ul>
+<li><a href="https://viblo.asia/p/gioi-thieu-ve-dom-WAyK8J2ElxX">Giới thiệu về DOM</a> - Tìm hiểu về DOM (Document Object Model). Sẽ có một chút phần code của JavaScript, bạn có thể bỏ qua và chỉ cần tập trung vào hiểu DOM là gì.</li>
+<li><a href="https://cs.fyi/guide/writing-semantic-html">Guide to Writing Semantic HTML</a> - Cách viết semantic HTML (Semantic HTML refers to the use of HTML markup to convey the meaning of the content on a web page, rather than just its appearance)</li>
+<li><a href="https://www.dont-click-here.com/">Don't click here</a>  </li>
+</ul>
+<p>Sau đó bạn cũng có thể lựa chọn sử dụng CSS Framework để giúp việc trang trí Website của bạn được đơn giản hơn nhiều, dưới đây là một số CSS Framework được gợi ý:</p>
+<ul>
+<li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+<li><a href="https://tailwindcss.com/docs/installation/play-cdn">TailwindCSS</a></li>
+<li><a href="https://pure-css.github.io/start/">Pure CSS</a> - Siêu tối giản</li>
+</ul>
+<h3 id="tuan-2-javascript-co-ban">Tuần 2: JavaScript cơ bản</h3>
+<h4 id="ban-se-hoc_1">Bạn sẽ học</h4>
+<p>JavaScript cơ bản</p>
+<ul>
+<li>Các nội dung cơ bản như: variables (biến), loops (vòng lặp), functions (hàm), và arrays (chuỗi).</li>
+<li>Tìm hiểu về các chức năng ES6 như let, const, và arrow functions.</li>
+<li>DOM manipulation</li>
+</ul>
+<h4 id="nguon-tai-nguyen-hoc_1">Nguồn tài nguyên học</h4>
+<p>Học từ đầu trong 30 ngày thông qua khóa <a href="https://github.com/Asabeneh/30-Days-Of-JavaScript">30-Days-Of-JavaScript</a>. Sau đó bạn có thể đọc thêm: <a href="https://github.com/leonardomso/33-js-concepts">33 Concepts Every JavaScript Developer Should Know</a> (Nếu bạn mới học hoàn toàn thì có thể những kiến thức này sẽ khiến bạn thấy ngợp, bạn sẽ còn học lâu dài nên chỉ đọc tham khảo qua cũng được). Nếu bạn thích học thêm thì học khóa <a href="https://www.youtube.com/playlist?list=PL_-VfJajZj0U1MSx1IMu13oLJq2nM97ac">JavaScript nâng cao</a> của F8.</p>
+<h4 id="lam-bai-tap-luyen-tap">Làm bài tập luyện tập</h4>
+<p>Có thể lên một số trang như Exercism để luyện tập lập trình. Có thể thử đọc <a href="https://quantrimang.com/hoc/bai-tap-javascript-co-giai-159572">Tổng hợp bài tập JavaScript có code mẫu</a></p>
+<p>Luyện tập DOM Manipulation thông qua <a href="https://javascript.uduer.com/bai-tap-ve-dom">Bài tập về DOM</a></p>
+<h3 id="tuan-3-backend-phan-1">Tuần 3: Backend (Phần 1)</h3>
+<p>Thường mình thấy trong các khóa học hoặc chương trình khác thì mọi người thường hay cho học Frontend trước. Chương trình này sẽ lựa chọn Backend để khởi đầu trước. Lý do là Backend cung cấp các kiến thức cốt lõi như cơ sở dữ liệu, hệ thống, thuật toán, mạng .v.v.. – những yếu tố quan trọng giúp bạn hiểu cách một ứng dụng web hoạt động từ bên trong.</p>
+<p>Trích từ <a href="https://voz.vn/t/lo-trinh-tu-hoc-phat-trien-website-fullstack-fullstack-web-development.970731/post-33389959">một bình luận của một vozer khác</a> trên Thread Fullstack của tôi (Thanks bác, lộ trình này sẽ học Backend trước rồi mới học Frontend):</p>
+<blockquote>
+<p>mình nghĩ nên bắt đầu từ BE trước, nắm vững các kiến thức cơ bản về DB, OOP, thuật toán, mạng, Linux,...
+rồi học liên quan đến setup, build web trên server qua Docker, VPS,...
+sau đấy mới move dần qua FE. Bắt đầu từ SSR để làm quen với HTML, CSS, JS sau đó chuyển qua CSR làm quen với các lib, framework như React, Vue, Angular</p>
+</blockquote>
+<p>Vậy thì bạn cần học gì về Backend?  </p>
+<h4 id="ban-se-hoc_2">Bạn sẽ học</h4>
+<ul>
+<li>Kiến thức nền tảng về Internet:  <ul>
+<li>Cách Internet hoạt động, HTTP, DNS, hosting, trình duyệt, client-server.</li>
+<li>📖 <a href="https://fullstackopen.com/en/part0/fundamentals_of_web_apps">Fundamentals of Web apps</a>.</li>
+</ul>
+</li>
+<li>JavaScript Runtime Environment &amp; Web Server:  <ul>
+<li>📖 <a href="https://topdev.vn/blog/javascript-runtime-environment-la-gi/">JavaScript runtime environment là gì?</a>  </li>
+<li>📖 <a href="https://viblo.asia/p/web-server-la-gi-tim-hieu-ve-web-server-WR5JRv0rJGv">Web Server là gì?</a>  </li>
+</ul>
+</li>
+<li>Xây dựng HTTP Server từ đầu:  <ul>
+<li>📖 <a href="https://scribe.rip/@gabriellamedas/the-http-server-explained-c41380307917">The HTTP server explained</a>.</li>
+</ul>
+</li>
+<li>Lựa chọn ngôn ngữ Backend:  <ul>
+<li>Bạn có thể chọn JavaScript (Node.js), Ruby, Java, Go, Rust, v.v. (Từ tuần này bạn có thể bắt đầu học luôn hoặc để sang tuần sau và tuần này tập trung học những phần siu cơ bản đã được liệt kê ở đây). </li>
+<li>📖 <a href="https://old.reddit.com/r/learnprogramming/comments/pxg54p/how_to_start_programming_from_zero/">Hướng dẫn bắt đầu lập trình từ con số 0</a>.</li>
+</ul>
+</li>
+<li>Hệ thống kiểm soát phiên bản (Git &amp; GitHub):  <ul>
+<li>📺 <a href="https://www.youtube.com/watch?v=1JuYQgpbrW0">Từ gà tới pro Git và Github trong 20 phút</a>.</li>
+<li>📺 <a href="https://www.youtube.com/watch?v=RGOj5yH7evk">Git and GitHub Crash Course</a>.</li>
+</ul>
+</li>
+<li>Thiết kế API cơ bản:  <ul>
+<li>📖 <a href="https://github.com/dwyl/learn-api-design">Learn API Design</a>.</li>
+</ul>
+</li>
+</ul>
+<h4 id="nguon-tai-nguyen-hoc_2">Nguồn tài nguyên học</h4>
+<ul>
+<li>📖 <a href="https://daihocmo.github.io/awesome-lap-trinh/">Awesome Lập trình</a> - Tổng hợp tài liệu học lập trình và Khoa học Máy tính bằng tiếng Việt.</li>
+<li>Nếu bạn học Rust, tham khảo <a href="https://daihocmo.github.io/awesome-lap-trinh/ngon-ngu/rust.html">Hướng dẫn cày Rust</a>.</li>
+</ul>
+<h4 id="oc-them">Đọc thêm</h4>
+<ul>
+<li><a href="https://www.theodinproject.com/lessons/foundations-commit-messages">Commit Messages</a> - Học cách viết Commit Message mỗi khi thực hiện commit trong Git.</li>
+<li><a href="https://www.theodinproject.com/lessons/foundations-problem-solving">Problem Solving</a> - Giải quyết vấn đề trong lập trình.</li>
+<li><a href="https://www.theodinproject.com/lessons/foundations-understanding-errors">Understanding Errors</a> - Hiểu về lỗi trong lập trình (Bài viết này tập trung vào JS, nhưng đọc để hiểu về tư duy về lỗi lập trình khá hay)</li>
+<li><a href="https://www.theodinproject.com/lessons/foundations-clean-code">Clean Code</a> - Phần lớn thời gian lập trình được dành để đọc Code. Hướng dẫn viết Code dễ đọc.</li>
+</ul>
+<h3 id="tuan-4-backend-phan-2">Tuần 4: Backend (Phần 2)</h3>
+<h4 id="ban-se-hoc_3">Bạn sẽ học</h4>
+<ul>
+<li>📖 <a href="https://www.freecodecamp.org/news/what-is-http/">HTTP Basics</a> - Hiểu cách HTTP hoạt động.</li>
+<li>📖 <a href="https://davisgitonga.dev/blog/request-response-cycle">Request-Response Cycle</a> - Hiểu vòng đời của một request.</li>
+<li>📖 <a href="https://viblo.asia/p/restful-api-la-gi-1Je5EDJ4lnL">REST APIs</a> - Cách thiết kế API RESTful.</li>
+</ul>
+<h4 id="lua-chon-inh-huong">Lựa chọn định hướng</h4>
+<ul>
+<li>Nếu bạn chọn Fullstack JavaScript, học:  <ul>
+<li>📖 <a href="https://www.theodinproject.com/paths/full-stack-javascript">Full Stack JavaScript - The Odin Project</a>.</li>
+<li>📺 <a href="https://www.youtube.com/playlist?list=PL_-VfJajZj0VatBpaXkEHK_UPHL7dW6I3">NodeJS &amp; ExpressJS</a> (Khóa học Tiếng Việt của F8).</li>
+</ul>
+</li>
+<li>Ruby on Rails - Ruby on Rails là một framework mạnh mẽ giúp tăng tốc phát triển ứng dụng web:<ul>
+<li></li>
+</ul>
+</li>
+<li>Java + Spring - Java Spring là một framework phổ biến để xây dựng ứng dụng doanh nghiệp:<ul>
+<li><a href="https://voz.vn/t/chia-se-lo-tinh-tu-hoc-%C4%91en-khi-co-offer-fresher-java-%C4%91au-tien.757819/">Chia sẻ lộ trình tự học đến khi có OFFER FRESHER (Java) đầu tiên</a></li>
+</ul>
+</li>
+<li>Rust - Rust là một ngôn ngữ lập trình hệ thống hiện đại, tập trung vào hiệu suất và an toàn bộ nhớ.<ul>
+<li><a href="https://daihocmo.github.io/awesome-lap-trinh/ngon-ngu/rust.html">Hướng dẫn cày Rust</a></li>
+<li><a href="https://www.zero2prod.com/assets/sample_zero2prod.pdf">Zero To Production In Rust - An introduction to backend development</a> - Bạn cũng có thể đọc bản Sample đầy đủ của cả sách trên <a href="https://lpalmieri.com/posts/2020-05-24-zero-to-production-0-foreword/">Blog của tác giả</a></li>
+</ul>
+</li>
+</ul>
+<h4 id="oc-them_1">Đọc thêm</h4>
+<ul>
+<li>📖 <a href="https://scribe.rip/@castonboyd/request-response-cycle-through-a-story-e552a7afff41">Request-Response Cycle Through A Story</a>.</li>
+<li>📖 <a href="https://vietnix.vn/crud-la-gi/">CRUD là gì? So sánh sự khác biệt giữa CRUD và REST</a>.</li>
+</ul>
+<h3 id="tuan-5-nosql-databases-mongodb">Tuần 5: NoSQL Databases (MongoDB)</h3>
+<h4 id="ban-se-hoc_4">Bạn sẽ học</h4>
+<ul>
+<li>📖 <a href="https://viblo.asia/p/gioi-thieu-ve-nosql-database-djeZ1a9jZWz">NoSQL concepts</a>.</li>
+<li>📖 <a href="https://viblo.asia/p/crud-la-gi-lap-trinh-website-crud-crud-database-Ljy5VyLzlra">CRUD với MongoDB</a>.</li>
+<li>📖 <a href="https://viblo.asia/p/lam-the-nao-de-thiet-ke-mot-co-so-du-lieu-phan-1-rYvGwavgKVw">Database Schema Design</a>.</li>
+<li>📖 <a href="https://viblo.asia/p/index-trong-database-la-gi-tai-sao-can-index-database-Az45bYDzlxY">Indexing trong Database</a>.</li>
+</ul>
+<h4 id="nguon-tai-nguyen-hoc_3">Nguồn tài nguyên học</h4>
+<ul>
+<li>📖 <a href="https://www.datacamp.com/tutorial/nosql-tutorial">A Comprehensive NoSQL Tutorial Using MongoDB</a>.</li>
+<li>📺 <a href="https://www.freecodecamp.org/news/learn-nosql-in-3-hours/">Learn About NoSQL Databases in This 3-hour Course</a>.</li>
+</ul>
+<h3 id="tuan-6-sql-co-ban">Tuần 6: SQL cơ bản</h3>
+<h4 id="ban-se-hoc_5">Bạn sẽ học</h4>
+<ul>
+<li>📖 Học cú pháp SQL từ <a href="https://sqlbolt.com/">SQLBolt</a>.</li>
+<li>📖 Thực hiện CRUD operations với MySQL/PostgreSQL.</li>
+</ul>
+<h4 id="nguon-tai-nguyen-hoc_4">Nguồn tài nguyên học</h4>
+<ul>
+<li>📖 <a href="https://viblo.asia/s/fullstack-vo-long-5OXLA0AvJGr">Fullstack Vỡ Lòng (8 bài viết về MySQL)</a>.</li>
+<li>📖 <a href="https://viblo.asia/p/crud-nodejs-voi-mysql-RnB5pbPGZPG">CRUD Node.js với MySQL</a>.</li>
+</ul>
+<h3 id="tuan-7-orms-sequelizemongoose">Tuần 7: ORMs (Sequelize/Mongoose)</h3>
+<h4 id="ban-se-hoc_6">Bạn sẽ học</h4>
+<ul>
+<li>📖 <a href="https://viblo.asia/p/object-relational-mapping-djeZ1PQ3KWz">Object-Relational Mapping (ORM)</a>.</li>
+<li>📖 <a href="https://viblo.asia/p/tim-hieu-va-su-dung-sequelize-va-sequelize-cli-jvElaRY65kw">Sequelize cho SQL</a>.</li>
+<li>📖 <a href="https://www.mongodb.com/developer/languages/javascript/getting-started-with-mongodb-and-mongoose/">Mongoose cho MongoDB</a>.</li>
+<li>📖 <a href="https://viblo.asia/p/mo-hinh-quan-he-thuc-the-entity-relationship-model-oOVlYEenl8W">Mô hình quan hệ - thực thể (ER Model)</a>.</li>
+</ul>
+<h4 id="nguon-tai-nguyen-hoc_5">Nguồn tài nguyên học</h4>
+<ul>
+<li>📖 <a href="https://www.freecodecamp.org/news/introduction-to-mongoose-for-mongodb-d2a7aa593c57/">Introduction to Mongoose for MongoDB</a>.</li>
+</ul>
+<h3 id="tuan-8-lua-chon-framework-frontend">Tuần 8: Lựa chọn Framework Frontend</h3>
+<h4 id="ban-se-hoc_7">Bạn sẽ học</h4>
+<ul>
+<li><strong>Tìm hiểu về các Framework phổ biến</strong>: React, Vue.js, Svelte, Angular.</li>
+<li><strong>Đánh giá ưu và nhược điểm</strong> của từng Framework.</li>
+<li><strong>Xác định mục tiêu cá nhân</strong> và <strong>nhu cầu thị trường</strong> để chọn Framework phù hợp.</li>
+</ul>
+<h4 id="nguon-tai-nguyen-hoc_6">Nguồn tài nguyên học</h4>
+<ul>
+<li><a href="https://itviec.com/blog/lo-trinh-hoc-front-end/">Lộ trình học Front-end toàn diện A-Z khoảng 10-12 tháng</a></li>
+</ul>
+<h4 id="oc-them_2">Đọc thêm:</h4>
+<p>Ở đây mình chọn React để thêm tài nguyên vì cơ bản ai cũng học =))</p>
+<ul>
+<li><a href="https://viblo.asia/p/react-cau-truc-thu-muc-du-an-va-dat-ten-component-aWj53GMY56m">React - Cấu trúc thư mục dự án và đặt tên Component</a></li>
+<li><a href="https://viblo.asia/p/mot-vai-mindset-khi-lam-viec-voi-react-L4x5xkoalBM">Một vài mindset khi làm việc với React</a></li>
+<li><a href="https://viblo.asia/p/reactjs-mot-vai-loi-thuong-gap-khi-lam-viec-voi-react-djeZ1n4JlWz">ReactJS: Một vài lỗi thường gặp khi làm việc với React</a></li>
+<li><a href="https://viblo.asia/p/nguyen-ly-solid-bi-quyet-viet-code-hieu-qua-trong-react-va-react-native-zOQJw5vyVMP">Nguyên Lý SOLID: Bí Quyết Viết Code Hiệu Quả Trong React và React Native</a></li>
+</ul>
+<h3 id="tuan-9-hoc-framework-a-chon-tiep-tuc">Tuần 9: Học Framework đã chọn (Tiếp tục)</h3>
+<p>Sau khi đã đọc và trải nghiệm đôi chút, đồng thời đưa ra quyết định lựa chọn Framework mà mình muốn học, đồng thời đã học cơ bản về nó rồi thì bắt đầu tuần thứ 9!</p>
+<h4 id="ban-se-hoc_8">Bạn sẽ học</h4>
+<ul>
+<li><strong>Cài đặt môi trường phát triển</strong> cho Framework.</li>
+<li><strong>Cấu trúc dự án</strong> và <strong>các khái niệm cơ bản</strong>: components, state management, routing, v.v.</li>
+<li><strong>Xây dựng các ứng dụng nhỏ</strong> để thực hành.</li>
+</ul>
+<h4 id="nguon-tai-nguyen-hoc_7">Nguồn tài nguyên học</h4>
+<ul>
+<li><strong>React</strong>: <a href="https://react.dev/learn">Học thông qua trang chủ của React</a></li>
+<li><strong>Vue.js</strong>: <a href="https://vuejs.org/guide/introduction.html">Hướng dẫn chính thức của Vue.js</a></li>
+<li><strong>Svelte</strong>: <a href="https://svelte.dev/tutorial">Tutorial của Svelte</a></li>
+<li><strong>Angular</strong>: <a href="https://angular.io/tutorial">Tour of Heroes - Angular</a></li>
+</ul>
+<h3 id="tuan-10-typescript-co-ban">Tuần 10: TypeScript cơ bản</h3>
+<h4 id="ban-se-hoc_9">Bạn sẽ học</h4>
+<ul>
+<li>Học <a href="https://viblo.asia/p/tim-hieu-typescript-va-kien-thuc-co-ban-PmeRQpnyGoB">TypeScript</a> syntax và <a href="https://stackoverflow.com/a/1517670">static typing</a>: <strong>Cú pháp TypeScript</strong> và <strong>typing cơ bản</strong>.</li>
+<li><strong>Tích hợp TypeScript</strong> vào Framework đã chọn.</li>
+<li>Tìm hiểu về <a href="https://www.typescriptlang.org/docs/handbook/2/type-declarations.html">type declarations</a> cho APIs và models.</li>
+</ul>
+<h4 id="nguon-tai-nguyen-hoc_8">Nguồn tài nguyên học</h4>
+<ul>
+<li><a href="https://www.typescriptlang.org/docs/handbook/intro.html">The TypeScript Handbook</a></li>
+<li><a href="https://viblo.asia/p/strong-vs-weak-static-vs-dynamic-typing-la-cai-khi-gi-JQVkVzZokyd">Strong vs Weak, Static vs Dynamic typing là cái khỉ gì?</a></li>
+<li><a href="https://create-react-app.dev/docs/adding-typescript/">Adding TypeScript</a></li>
+</ul>
+<h3 id="tuan-11-nextjs-co-ban">Tuần 11: Next.js cơ bản</h3>
+<p>Phần này đang sửa... (vì mình đang học)</p>
+<h4 id="ban-se-hoc_10">Bạn sẽ học</h4>
+<ul>
+<li>Học <a href="https://viblo.asia/p/so-sanh-server-side-rendering-vs-client-side-rendering-vs-pre-rendering-vs-dynamic-rendering-LzD5dWoOljY">server-side rendering (SSR) và static site generation (SSG)</a> - Hoặc đọc <a href="https://stackoverflow.com/questions/75457090/static-site-generation-ssg-vs-server-side-rendering-vs-client-side-rendering">Thread trên StackOverflow về chủ đề này</a>.</li>
+<li>Xây dựng ứng dụng thân thiện với SEO (SEO-friendly).</li>
+<li><strong>State management</strong>: Redux, Vuex, Svelte Store, Angular Services.</li>
+<li><strong>Công cụ hỗ trợ</strong>: DevTools, linters, formatters.</li>
+<li><strong>Tích hợp với API</strong>: fetch, axios.</li>
+</ul>
+<h4 id="nguon-tai-nguyen-hoc_9">Nguồn tài nguyên học</h4>
+<ul>
+<li><a href="https://redux.js.org/">Redux - A Predictable State Container for JS Apps</a></li>
+<li><a href="https://vuex.vuejs.org/">Vuex - State Management Pattern + Library for Vue.js Applications</a></li>
+<li><a href="https://svelte.dev/tutorial/writable-stores">Svelte Store</a></li>
+<li><a href="https://angular.io/guide/architecture-services">Angular Services</a></li>
+</ul>
+<h3 id="tuan-12-monorepos-va-turborepo">Tuần 12: Monorepos và Turborepo</h3>
+<h4 id="ban-se-hoc_11">Bạn sẽ học</h4>
+<ul>
+<li>Học <a href="">monorepos</a> và tìm hiểu cách sắp xếp nhiều dự án khác nhau (?).</li>
+<li>Sử dụng Turborepo để tối ưu performance.</li>
+</ul>
+<h4 id="nguon-tai-nguyen-hoc_10">Nguồn tài nguyên học</h4>
+<ul>
+<li><a href="https://dev.to/sammaji/beginners-guide-to-monorepos-and-turborepo-590c">Beginner's guide to monorepos and turborepo</a></li>
+<li><a href="https://viblo.asia/p/modern-monorepo-with-turborepo-bat-dau-voi-mot-project-co-ban-tu-turborepo-gwd43ogA4X9">Modern Monorepo with Turborepo. Bắt đầu với một project cơ bản từ Turborepo</a></li>
+</ul>
+<h3 id="tuan-13-websockets-rtc-co-ban">Tuần 13: Websockets &amp; RTC cơ bản</h3>
+<h4 id="ban-se-hoc_12">Bạn sẽ học</h4>
+<ul>
+<li>Học <a href="https://viblo.asia/p/websocket-chia-khoa-mo-ra-the-gioi-giao-tiep-thoi-gian-thuc-x7Z4DO9oVnX">Giao tiếp thời gian thực với Websockets</a>.</li>
+<li>Học RTC cho video/audio communication.</li>
+</ul>
+<h4 id="nguon-tai-nguyen-hoc_11">Nguồn tài nguyên học</h4>
+<ul>
+<li><a href="https://scribe.rip/@sergey.dudik/mastering-real-time-communication-a-comprehensive-websocket-tutorial-0f6cf384d1e8">Mastering Real-Time Communication: A Comprehensive WebSocket Tutorial</a></li>
+<li><a href="https://jason-wills343.medium.com/how-to-develop-a-webrtc-based-audio-video-communication-with-no-code-a7ad8177121">How To Develop A WebRTC-Based Audio/Video Communication With No Code</a></li>
+<li><a href="https://stackoverflow.com/questions/18799364/webrtc-vs-websocket-if-webrtc-can-do-video-audio-and-data-why-do-i-need-webs">WebRTC vs WebSocket: If WebRTC can do Video, Audio, and Data, why do I need WebSocket?</a></li>
+</ul>
+<h3 id="tuan-14-testing-co-ban">Tuần 14: Testing cơ bản</h3>
+<h4 id="ban-se-hoc_13">Bạn sẽ học</h4>
+<ul>
+<li>Học unit và integration testing:<ul>
+<li><a href="https://viblo.asia/p/su-khac-nhau-giua-unit-integration-va-functional-testing-YmjeoLZrkqa">Sự khác nhau giữa Unit, Integration và Functional Testing</a></li>
+<li><a href="https://stackoverflow.com/a/5357837">What's the difference between unit tests and integration tests?</a></li>
+</ul>
+</li>
+<li>Sử dụng Jest và React Testing Library (Nếu bạn chọn học React ở trên, cá nhân mình không học nên sẽ bổ sung phần này sau)</li>
+<li>Test APIs và các frontend components.<ul>
+<li><a href="https://anhtester.com/blog/blog/so-luoc-ve-api-testing">Sơ lược về API Testing</a></li>
+<li><a href="https://viblo.asia/p/hoc-cach-test-api-don-gian-va-de-dang-trong-10-phut-Do7546xBZM6">Học cách test API đơn giản và dễ dàng trong 10 phút</a></li>
+</ul>
+</li>
+</ul>
+<h4 id="nguon-tai-nguyen-hoc_12">Nguồn tài nguyên học</h4>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLgcMOggxCIP1X0wyYsqzdAgYQJnsJAOKU">API Testing With Postman</a> - Khóa này bằng Tiếng Việt.</li>
+<li><a href="https://www.youtube.com/watch?v=VywxIQ2ZXw4">Postman Beginner's Course - API Testing</a></li>
+</ul>
+<h3 id="tuan-15-authentication-jwt">Tuần 15: Authentication &amp; JWT</h3>
+<h4 id="ban-se-hoc_14">Bạn sẽ học</h4>
+<ul>
+<li><a href="https://viblo.asia/p/tim-hieu-ve-khai-niem-xac-thuc-nguoi-dung-authentication-ByEZkrM4KQ0">Tìm hiểu về khái niệm xác thực người dùng Authentication</a> và <a href="https://viblo.asia/p/phan-biet-su-khac-nhau-giua-authentication-va-authorization-Eb85oad4Z2G">phân biệt sự khác nhau giữa Authentication và Authorization</a></li>
+<li>Sử dụng JWT (JSON Web Token) và cookies cho session management:<ul>
+<li><a href="https://www.facebook.com/groups/devoiminhdidauthe/posts/25529417370035293/">JWT và Session một số thông tin bạn nên biết</a></li>
+<li><a href="https://viblo.asia/p/jwt-json-web-tokens-va-session-cookies-trong-viec-authentication-XL6lA9QDlek">JWT – JSON Web Tokens và Session Cookies trong việc Authentication</a></li>
+<li><a href="https://viblo.asia/p/json-web-token-hay-session-cookies-dau-moi-la-chan-ai-Qbq5Q0oJlD8">JSON Web Token hay Session Cookies, đâu mới là chân ái ?</a></li>
+<li><a href="https://haiconmeo.info/blog/code-blog/jwt-cookie">Lưu JWT trong cookie hay local storage?</a></li>
+</ul>
+</li>
+</ul>
+<h4 id="nguon-tai-nguyen-hoc_13">Nguồn tài nguyên học</h4>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PL_-VfJajZj0VaEt6Q1Z_CSg_Ci9aP9oQ1">Session, cookie, CORS, JWT, SSO</a> - Danh sách phát của F8</li>
+</ul>
+<h3 id="tuan-16-toi-uu-co-so-du-lieu">Tuần 16: Tối ưu cơ sở dữ liệu</h3>
+<h4 id="ban-se-hoc_15">Bạn sẽ học</h4>
+<ul>
+<li>Tìm hiểu về kĩ thuật tối ưu cơ sở dữ liệu (database optimization techniques). Ví dụ như indexing, query optimization .etc.</li>
+</ul>
+<h4 id="nguon-tai-nguyen-hoc_14">Nguồn tài nguyên học</h4>
+<ul>
+<li><a href="https://datapot.vn/tu-hoc-sql-10-ky-thuat-toi-uu-hoa-lenh-truy-van-sql/?srsltid=AfmBOor8LgzTt4DmuIDGQ_TJ2ABDFTBk-5RZZ8q1QlFJHEHGBYsGsLMR">Tự học SQL: 10 Kỹ thuật tối ưu hóa lệnh truy vấn hiệu quả</a></li>
+<li><a href="https://danielfoo.medium.com/11-database-optimization-techniques-97fdbed1b627">11 Database Optimization Techniques</a></li>
+</ul>
+<h3 id="tuan-17-khai-niem-backend-nang-cao">Tuần 17: Khái niệm Backend nâng cao</h3>
+<h4 id="ban-se-hoc_16">Bạn sẽ học</h4>
+<ul>
+<li>Học thêm về <a href="https://fullstack.edu.vn/blog/co-ban-tong-quan-lap-trinh-synchronous-va-asynchronous.html">asynchronous programming</a> và <a href="https://viblo.asia/p/javascript-error-handling-vyDZO1N95wj">error handling</a> (Lưu ý cho ai chưa biết thì hai khái niệm này không chỉ giới hạn trong JavaScript).</li>
+<li>Học middleware chaining - Theo mình tìm hiểu thì khái niệm này chỉ giới hạn trong Express.js. Đọc bài <a href="https://dev.to/getd/express-middleware-is-just-a-fancy-way-of-chaining-a-bunch-of-functions-explained-in-3-mins-43jf">'Express Middleware' is just a fancy way of chaining a bunch of functions.</a></li>
+<li><a href="https://medium.com/@zalewski/exploring-advanced-backend-concepts-databases-software-design-and-architecture-90d76d2a82c5">Các khái niệm Backend "cao cấp hơn"</a>:</li>
+</ul>
+<h4 id="cap-nhat-du-an-cua-ban">Cập nhật dự án của bạn</h4>
+<ul>
+<li>Viết API và có thêm những tính năng nâng cao như rate limiting và complex queries:<ul>
+<li><a href="https://viblo.asia/p/api-rate-limiting-la-gi-va-mot-so-thuat-toan-hay-dung-bJzKmPyr59N">API Rate Limiting là gì và một số thuật toán hay dùng</a></li>
+<li><a href="https://www.reddit.com/r/datascience/comments/z6mot6/what_does_it_mean_to_be_able_to_write_complex_sql/">What does it mean to be able to write "complex" SQL queries?</a></li>
+</ul>
+</li>
+</ul>
+<h4 id="nguon-tai-nguyen-hoc_15">Nguồn tài nguyên học</h4>
+<h3 id="tuan-18-ref-populate-va-api-design">Tuần 18: Ref, Populate, và API Design</h3>
+<p>Đang trong quá trình thêm</p>
+<h3 id="tuan-19-cac-chuc-nang-frontend-nang-cao">Tuần 19: Các chức năng Frontend nâng cao</h3>
+<h4 id="ban-se-hoc_17">Bạn sẽ học</h4>
+<ul>
+<li>Học dynamic form handling, animations, và accessibility features trong React.</li>
+<li>Tìm hiểu về Framer Motion cho animations.</li>
+</ul>
+<h3 id="tuan-20-project-planning">Tuần 20: Project Planning</h3>
+<h4 id="ban-se-hoc_18">Bạn sẽ học</h4>
+<ul>
+<li>Lên kế hoạch cho một <a href="https://domyessay.com/blog/capstone-project-outline">capstone project</a> (Dự án tốt nghiệp)</li>
+<li>Định nghĩa các tính năng, Tạo high-level (HLD) và low-level designs (LLD)</li>
+</ul>
+<h4 id="ghi-chu">Ghi chú</h4>
+<p>Đây sẽ là một dự án (tương đối) lớn. Trước khi bắt tay vào làm dự án này, bạn nên hoàn thành một số các dự án cỡ nhỏ và vừa. Bạn có thể xem <a href="https://www.youtube.com/watch?v=XIcWaewPAjQ">Những DỰ ÁN CÁ NHÂN nên làm khi TỰ HỌC lập trình</a> của ông Dev để tìm hiểu thêm.</p>
+<h3 id="tuan-21-capstone-backend-development">Tuần 21: Capstone Backend Development</h3>
+<p>Sau khoảng một tuần lập kế hoạch và học thêm một số các khái niệm liên quan đến HLD và LLD, bây giờ sẽ là lúc bắt đầu.</p>
+<h4 id="ban-se-lam">Bạn sẽ làm</h4>
+<ul>
+<li>Xây dựng phần Backend cho <strong>dự án tốt nghiệp</strong> của bạn.</li>
+<li>Implement CRUD APIs, authentication, và error handling.</li>
+</ul>
+<h3 id="tuan-22-capstone-frontend-development">Tuần 22: Capstone Frontend Development</h3>
+<h4 id="ban-se-lam_1">Bạn sẽ làm</h4>
+<ul>
+<li>Xây dựng Frontend cho <strong>dự án tốt nghiệp</strong> của bạn.</li>
+<li>Có thể sử dụng React/Next.js với Tailwind CSS. </li>
+</ul>
+<h3 id="tuan-23-real-time-features-trong-capstone">Tuần 23: Real-Time Features trong Capstone</h3>
+<h4 id="ban-se-hoc_19">Bạn sẽ học</h4>
+<ul>
+<li>Thêm những tính năng real-time sử dụng Websockets hoặc RTC.</li>
+<li>Implement live chat hoặc real-time notifications</li>
+</ul>
+<h3 id="tuan-24-testing-va-deployment">Tuần 24: Testing và Deployment</h3>
+<h4 id="ban-se-hoc_20">Bạn sẽ học</h4>
+<ul>
+<li>Test ứng dụng</li>
+<li>Deploy lên một nền tảng cloud (e.g., Vercel, Heroku)</li>
+</ul>
+<h4 id="nguon-tai-nguyen-hoc_16">Nguồn tài nguyên học</h4>
+<h3 id="tuan-25-linting-va-performance-optimization">Tuần 25: Linting và Performance Optimization</h3>
+<h4 id="ban-se-hoc_21">Bạn sẽ học</h4>
+<ul>
+<li>Thiết lập các công cụ <a href="https://toidicodedao.com/2018/05/15/viet-code-tot-hon-voi-linter-eslint-visual-studio-code/">Linting</a> (e.g., ESLint, Prettier).</li>
+<li>Tối ưu performance cho cả Backend và Frontend.</li>
+<li>Học về <a href="https://viblo.asia/p/chien-luoc-caching-caching-strategies-zXRJ8jPOVGq">caching strategies</a></li>
+</ul>
+<h4 id="oc-them_3">Đọc thêm</h4>
+<ul>
+<li><a href="https://medium.com/@mmoshikoo/cache-strategies-996e91c80303">Cache Strategies</a></li>
+<li><a href="https://dev.to/somadevtoo/9-caching-strategies-for-system-design-interviews-369g">9 Caching Strategies for System Design Interviews</a></li>
+</ul>
+<h3 id="tuan-26-final-enhancements-portfolio">Tuần 26: Final Enhancements &amp; Portfolio</h3>
+<p>Thêm thắt chỉnh sửa đôi chút cho dự án tốt nghiệp</p>
+<h4 id="ac-biet-chut">Đặc biệt chút</h4>
+<ul>
+<li>Thêm dự án vào trang Portfolio của bản thân.</li>
+<li>Chuẩn bị đi phỏng vấn với dự án đó, và một resume nữa. </li>
+<li>Tạo một portfolio cá nhân sử dụng Next.js.</li>
+<li>Showcase tất cả 10 dự án trong portfolio của bạn. </li>
+</ul>
+<h3 id="sau-khi-hoan-thanh">Sau khi hoàn thành</h3>
+<p>Sau khi bạn hoàn thành xong 26 tuần này, sẽ còn rất nhiều thứ nữa bạn (cần) nên học để có thể cải thiện hơn nữa sản phẩm của bạn.</p>
+<h2 id="danh-sach-du-an-goi-y">Danh sách dự án gợi ý</h2>
+<ul>
+<li><a href="https://toidicodedao.com/2018/09/04/project-luyen-tap-ki-nang-lap-trinh/">9 project nhỏ mà bạn có thể code để luyện tập kĩ năng lập trình</a></li>
+<li><a href="https://www.youtube.com/watch?v=XIcWaewPAjQ">Những DỰ ÁN CÁ NHÂN nên làm khi TỰ HỌC lập trình</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "search.suggest", "search.highlighting", "search.share"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "\u0110\u00e3 sao ch\u00e9p", "clipboard.copy": "Sao ch\u00e9p v\u00e0o b\u1ed9 nh\u1edb t\u1ea1m", "search.result.more.one": "1 t\u1eeb kh\u00e1c trong trang", "search.result.more.other": "# t\u1eeb kh\u00e1c trong trang", "search.result.none": "Kh\u00f4ng t\u00ecm th\u1ea5y t\u00e0i li\u1ec7u li\u00ean quan", "search.result.one": "1 t\u00e0i li\u1ec7u li\u00ean quan", "search.result.other": "# t\u00e0i li\u1ec7u li\u00ean quan", "search.result.placeholder": "Nh\u1eadp \u0111\u1ec3 b\u1eaft \u0111\u1ea7u t\u00ecm ki\u1ebfm", "search.result.term.missing": "Kh\u00f4ng", "select.version": "Ch\u1ecdn phi\u00ean b\u1ea3n"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+        <script src="../../../js/open_in_new_tab.js"></script>
+      
+    
+  </body>
+</html>
